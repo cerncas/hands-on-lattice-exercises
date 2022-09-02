@@ -1,26 +1,24 @@
-# Hands-On Lattice and Longitudinal Calculations 
-During the [CAS 2022 in  Kaunas](https://indico.cern.ch/event/1117526/) (Lithuania), we will use Python as scripting language for the Hands-On Lattice and Longitudinal Calculations. We kindly ask you to make some homework before coming to  to prepare yourself (and your laptop) for the course.
+# Hands-On Lattice and Longitudinal Calculations - Setup Instructions
+===
 
-**We strongly suggest to use Python for the course**.
-
-A basic knowledge of Python is assumed, therefore if you are not familiar with it you can find, in the following sections, few resources to fill the gap.
-
-During the course we will use **Python3** in a **Jupyter notebook** and, mostly, the numpy and matplotlib packages. We will explain in the following sections how to install this software on your laptops.
-
-After a short introduction where we provided some useful links to get familiar with Python, we will focus on the software setup.
+During the course we will use **Python3** in a **Jupyter notebook** with [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) and, mostly, the [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/) packages. We will explain in the following sections how to install all necessary software on **your laptop**.
+A basic knowledge of Python is assumed. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections.
 
 To get a better idea of the level of the Python knowledge needed for the course you can browse the [Primer of the Hands-on exercises](https://www.overleaf.com/read/yccphjdyfmrz). Do not worry about the theory for the moment (it will be discussed in details during the school) but focus on the Python syntax and data types (tuples, lists,...).
 
+After [a short introduction](#a-very-short-introduction-to-python), where we provided some useful links to get familiar with Python, we will focus on the [software setup](#software-setup). 
+Finally, in [appendix](#appendix-python-packages) you will find links and cheatsheets for the most common Python packages that will be used during the course.
 
+==Important:== we kindly ask you to go throw this document **before coming** to CAS, such as to **prepare yourself** (and **your laptop**) for the course. 
 
-
-# A (very) short introduction to Python
-You can find several nice courses, videos and resources on the internet. Here you are a couple of suggestions
+---
+# A very short introduction to Python
+You can find several nice courses, videos and resources on the internet. Here you are a couple of suggestions.
 
 {%youtube kqtD5dpn9C8 %}
 {%youtube rfscVS0vtbw %}
 
-## Test Python on a web page
+### Test Python on a web page
 
 If you are not familiar with Python and you have not it installed on your laptop, you can start playing with simple python snippets on the web: without installing any special software you can connect, e.g., to 
 
@@ -44,56 +42,18 @@ def Q(f=1):
 #Eigenvalues and eigenvectors
 np.linalg.eig(M)
 ```
-You can compare and check your output with the ones [here](https://cernbox.cern.ch/index.php/s/xipyXzX7V9KBJbI).
+You can compare and check your output with the ones [here](tests/SimpleTest.ipynb).
 
-## Python packages
-
-You can leverage python's capability by exploring a galaxy of packages. Below you can find the most useful for our course (focus mostly on `numpy` and `matplotlib`) and some very popular ones. 
-
-### The *numpy* package
-To get familiar with the *numpy* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf).
-
-![](https://codimd.web.cern.ch/uploads/upload_6ffb4d07b1ebb895528f2a34aae41ec6.png)
-
-You can google many other resources, but the one presented of the poster covers the set of instructions you should familiar with.
-
-### The *matplotlib* package
-To get familiar with the *matplotlib* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf).
-
-![](https://codimd.web.cern.ch/uploads/upload_4b54812812e21978b600b860ba1ddf5b.png)
-
-### The *sympy* package
-To get familiar with the *sympy* package have a look at the following [summary poster](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf).
-
-![](https://codimd.web.cern.ch/uploads/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png)
-
-
-### The *linalg* module
-To get familiar with the Linear Algebra (linalg) module have a look at the following [summary poster](
-https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf).
-
-![](https://hackmd.web.cern.ch/uploads/upload_15561fc12184bb0ae3f9cf7b1850317a.png)
-
-### The *pandas* package (optional)
-To get familiar with the *pandas* package have a look at the following [summary poster](
-https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf).
-![](https://codimd.web.cern.ch/uploads/upload_90383c01e29d29fb6a5516c613e22c4d.png)
-
-### The *seaborn* package (optional)
-To get familiar with the *seaborn* package have a look at the following [summary poster](
-https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf).
-![](https://codimd.web.cern.ch/uploads/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png)
-
-
-## JupyterLab installation
+---
+# Software Setup
 JupyterLab is a user-friendly environment to work with Python. 
 
 You can find an overview on JupyterLab [here](
 https://jupyterlab.readthedocs.io/en/stable/).
 
-In the following section we will explain how to install a Python on your laptop.
+In this section we will explain how to install Python on your laptop.
 
-### Installation
+## Installation
 
 Please install the Anaconda distribution from
 https://www.anaconda.com/distribution/
@@ -114,10 +74,14 @@ You should end-up on your default browser with a page similar to the following:
 If you are not familiar with Python, you can start playing with simple python snippets.
 
 :::info
-Please have a look to the following [notebook](https://indico.cern.ch/event/1022988/contributions/4499874/#preview:3937228) (courtesy of Simon Albright).
+Please have a look to the following [notebook](https://indico.cern.ch/event/1022988/contributions/4499874/#preview:3937228) (courtesy of *Simon Albright*).
 :::
 
-## Indexing
+## Examples: try it yourself!
+
+Please, make sure to go throw all the examples below to familiarise with the typical Python concepts that will be used during the course.
+
+### Indexing
 
 Generate a random array and select specific elements:
 
@@ -150,7 +114,7 @@ First 5 elements array: [0.09402447 0.05647033 0.79670378 0.60573004 0.81588777]
 Last 5 elements array: [0.97863634 0.51376609 0.19763518 0.7649532  0.59285346]
 ```
 
-## Implicit loops
+### Implicit loops
 
 In contrast to programming languages like C++, Python can handle vectors. No loop is required, e.g. to multiply each element with a constant or squaring it:
 
@@ -202,7 +166,8 @@ def Q(f=1):
 #Eigenvalues and eigenvectors
 np.linalg.eig(M)
 ```
-## Plotting
+
+### Plotting
 Or you can test a simple plot:
 ```python=
 # check a simple plot
@@ -226,8 +191,7 @@ sns.jointplot(x=x, y=y, kind="hex")
 ```
 ![](https://codimd.web.cern.ch/uploads/upload_1c7eaa74ee5422c62408cc9a57f7f0de.png)
 
-
-Or you can import from the internet some information in  a pandas dataframe:
+Or you can import from the internet some information in a pandas dataframe:
 ```python=
 # a simple pandas dataframe (GDP world statistics)
 myDF=pd.read_csv('https://stats.oecd.org/sdmx-json/data/DP_LIVE/.GDP.../OECD?contentType=csv&detail=code&separator=comma&csv-lang=en')
@@ -237,7 +201,7 @@ myDF.head()
 that gives
 ![](https://codimd.web.cern.ch/uploads/upload_90f1a933f3f7092f2a4d4b50725e61ae.png)
 
-## Animations
+### Animations
 :::info
 **IMPORTANT**: we will use animation in Python.
 :::
@@ -275,7 +239,41 @@ interactive_plot
 ```
 ![](https://codimd.web.cern.ch/uploads/upload_0dff4499bd5e7b21942e1990cd76d0e9.png)
 
+---
+## Appendix: Python Packages
 
-:::success
-Looking forward to see you in Chavannes de Bogis!
-:::
+You can leverage python's capability by exploring a galaxy of packages. Below you can find the most useful for our course (focus mostly on `numpy` and `matplotlib`) and some very popular ones. 
+
+### The *numpy* package
+To get familiar with the *numpy* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf).
+
+![](https://codimd.web.cern.ch/uploads/upload_6ffb4d07b1ebb895528f2a34aae41ec6.png)
+
+You can google many other resources, but the one presented of the poster covers the set of instructions you should familiar with.
+
+### The *matplotlib* package
+To get familiar with the *matplotlib* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf).
+
+![](https://codimd.web.cern.ch/uploads/upload_4b54812812e21978b600b860ba1ddf5b.png)
+
+### The *sympy* package
+To get familiar with the *sympy* package have a look at the following [summary poster](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf).
+
+![](https://codimd.web.cern.ch/uploads/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png)
+
+### The *linalg* module
+To get familiar with the Linear Algebra (linalg) module have a look at the following [summary poster](
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf).
+
+![](https://hackmd.web.cern.ch/uploads/upload_15561fc12184bb0ae3f9cf7b1850317a.png)
+
+### The *pandas* package (optional)
+To get familiar with the *pandas* package have a look at the following [summary poster](
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf).
+![](https://codimd.web.cern.ch/uploads/upload_90383c01e29d29fb6a5516c613e22c4d.png)
+
+### The *seaborn* package (optional)
+To get familiar with the *seaborn* package have a look at the following [summary poster](
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf).
+![](https://codimd.web.cern.ch/uploads/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png)
+
