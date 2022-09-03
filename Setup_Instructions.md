@@ -13,11 +13,13 @@ Finally, in [appendix](#appendix-python-packages) you will find links and cheats
 
 ---
 # A very short introduction to Python
-You can find several nice courses, videos and resources on the internet. Here you have a couple of suggestions.
+You can find several nice courses, videos and resources on the internet. Here you have a couple of suggestions you can find on YouTube:
 
-[![Python for Beginners - Learn Python in 1 Hour](http://img.youtube.com/vi/kqtD5dpn9C8/0.jpg)](http://www.youtube.com/watch?v=kqtD5dpn9C8)
-
-[![Learn Python - Full Course for Beginners](http://img.youtube.com/vi/rfscVS0vtbw/0.jpg)](http://www.youtube.com/watch?v=rfscVS0vtbw)
+<p align="center">
+<a href=http://www.youtube.com/watch?v=kqtD5dpn9C8><img src="http://img.youtube.com/vi/kqtD5dpn9C8/0.jpg" alt="Python for Beginners - Learn Python in 1 Hour" width="40%"/></a> 
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=http://www.youtube.com/watch?v=rfscVS0vtbw><img src="http://img.youtube.com/vi/rfscVS0vtbw/0.jpg" alt="Learn Python - Full Course for Beginners" width="40%"/></a>
+</p>
 
 ### Test Python on a web page
 
