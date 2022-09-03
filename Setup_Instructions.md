@@ -4,7 +4,7 @@
 During the course we will use **Python3** in a **Jupyter notebook** with [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) and, mostly, the [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/) packages. We will explain in the following sections how to install all necessary software on **your laptop**.
 A basic knowledge of Python is assumed. If you are not familiar with Python, you can find a few resources to fill the gap in the following sections.
 
-To get a better idea of the level of the Python knowledge needed for the course you can browse the [Primer of the Hands-on exercises](Primer_v0.pdf). Do not worry about the theory for the moment (it will be discussed in details during the school) but focus on the Python syntax and data types (tuples, lists,...).
+To get a better idea of the level of the Python knowledge needed for the course you can browse the [primer of the hands-on course](CAS_Optics_Primer.pdf). Do not worry about the theory for the moment (it will be discussed in details during the school) but focus on the Python syntax and data types (tuples, lists,...).
 
 After [a short introduction](#a-very-short-introduction-to-python), where we provided some useful links to get familiar with Python, we will focus on the [software setup](#software-setup). 
 Finally, in [appendix](#appendix-python-packages) you will find links and cheatsheets for the most common Python packages that will be used during the course.
@@ -13,18 +13,21 @@ Finally, in [appendix](#appendix-python-packages) you will find links and cheats
 
 ---
 # A very short introduction to Python
-You can find several nice courses, videos and resources on the internet. Here you are a couple of suggestions.
+You can find several nice courses, videos and resources on the internet. Here you have a couple of suggestions.
 
 [![Python for Beginners - Learn Python in 1 Hour](http://img.youtube.com/vi/kqtD5dpn9C8/0.jpg)](http://www.youtube.com/watch?v=kqtD5dpn9C8)
+
 [![Learn Python - Full Course for Beginners](http://img.youtube.com/vi/rfscVS0vtbw/0.jpg)](http://www.youtube.com/watch?v=rfscVS0vtbw)
 
 ### Test Python on a web page
 
-If you are not familiar with Python and you have not it installed on your laptop, you can start playing with simple python snippets on the web: without installing any special software you can connect, e.g., to [jupyterLab](https://gke.mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/try.jupyter.org?urlpath=lab)
+If you are not familiar with Python and you have not it installed on your laptop, you can start playing with simple python snippets on the web. Without installing any special software you can connect, 
+for example, to [jupyterLab](https://gke.mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/try.jupyter.org?urlpath=lab),
+and test the following commands:
 
-and test  the following commands
 ```python=
 import numpy as np
+
 # Matrix definition
 Omega=np.array([[0, 1],[-1,0]])
 M=np.array([[1, 0],[1,1]])
@@ -37,7 +40,7 @@ Omega - M.T @ Omega @ M
 def Q(f=1):
     return np.array([[1, 0],[-1/f,1]])
 
-#Eigenvalues and eigenvectors
+# Eigenvalues and eigenvectors
 np.linalg.eig(M)
 ```
 You can compare and check your output with the ones [here](tests/SimpleTest.ipynb).
@@ -46,34 +49,39 @@ You can compare and check your output with the ones [here](tests/SimpleTest.ipyn
 # Software Setup
 
 In this section we will explain how to install Python and JupyterLab on your laptop.
-
 JupyterLab is a user-friendly environment to work with Python. 
-You can find an overview on JupyterLab [here](
-https://jupyterlab.readthedocs.io/en/stable/).
+You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/).
 
 ## Installation
 
 Please install the Anaconda distribution from
 https://www.anaconda.com/distribution/
-[![](_img_instructions/anaconda.png)](https://www.anaconda.com/distribution/)
+
+<p align="center">
+<a href=https://www.anaconda.com/distribution/><img src="_img_instructions/anaconda.png" alt="" width="70%"/></a>
+</p>
 
 > We suggest to install one of the latest distribution (**for example version 3.9**).
 
-Please test the following code to check that all packages are correctly installed. Launch Jupyter Lab from a terminal
+Please, test the following code to check that all packages are correctly installed:
 
-```bash
-jupyter lab
-```
-You should end-up on your default browser with a page similar to the following:
-![](_img_instructions/upload_5b0618b75e4f4df0facf2a609b9354b5.png)
+1. Launch Jupyter Lab from a terminal:
 
-If you are not familiar with Python, you can start playing with simple python snippets.
+    ```bash
+    jupyter lab
+    ```
 
-> Please have a look to the following [notebook](tests/PythonExample.ipynb) (courtesy of *Simon Albright*).
+2. You should end-up on your default browser with a page similar to the following:
+    <p align="center">
+    <img src="_img_instructions/upload_5b0618b75e4f4df0facf2a609b9354b5.png" alt="" width="70%"/>
+    </p>
 
-## Examples: try it yourself!
+    If you are not familiar with Python, you can start playing with simple python snippets.
+    For example, have a look to the following [notebook](tests/PythonExample.ipynb) (courtesy of *Simon Albright*), and/or follow the instructions below.
 
-Please, make sure to go throw all the examples below to familiarise with the typical Python concepts that will be used during the course.
+## Test that everything works!
+
+> Please, make sure to go throw all the examples below to familiarise with the typical Python concepts that will be used during the course, but also to verify your installation. 
 
 ### Indexing
 
@@ -136,7 +144,7 @@ Square root of each element: [0.47330149 0.59290097 0.82984883 0.3749973  0.8790
 ```
 
 
-Or you can perform some linear algebra  tests:
+You can perform also some linear algebra tests:
 
 ```python=
 import numpy as np
@@ -162,7 +170,7 @@ np.linalg.eig(M)
 ```
 
 ### Plotting
-Or you can test a simple plot:
+You can create a simple plot as follow:
 ```python=
 # check a simple plot
 %matplotlib inline
@@ -172,7 +180,11 @@ plt.xlabel('My x-label [arb. units]')
 plt.ylabel('My y-label [arb. units]')
 plt.title('My title')
 ```
-![](_img_instructions/upload_b7610a37c41729a79bc4b0a5d863594b.png)
+which should result in the following plot:
+
+<p align="center">
+<img src="_img_instructions/upload_b7610a37c41729a79bc4b0a5d863594b.png" alt="" width="40%"/>
+</p>
 
 Or something fancier:
 ```python=
@@ -183,9 +195,14 @@ x = rs.normal(size=1000)
 y = rs.normal(size=1000)
 sns.jointplot(x=x, y=y, kind="hex")
 ```
-![](_img_instructions/upload_1c7eaa74ee5422c62408cc9a57f7f0de.png)
+<p align="center">
+<img src="_img_instructions/upload_1c7eaa74ee5422c62408cc9a57f7f0de.png" alt="" width="40%"/>
+</p>
 
-Or you can import from the internet some information in a pandas dataframe:
+
+### Pandas dataframes
+
+You can import some information in a pandas dataframe from the internet :
 ```python=
 # a simple pandas dataframe (GDP world statistics)
 myDF=pd.read_csv('https://stats.oecd.org/sdmx-json/data/DP_LIVE/.GDP.../OECD?contentType=csv&detail=code&separator=comma&csv-lang=en')
@@ -193,19 +210,17 @@ myDF[(myDF['TIME']==2018) & (myDF['MEASURE']=='MLN_USD')]
 myDF.head()
 ```
 that gives
-![](_img_instructions/upload_90f1a933f3f7092f2a4d4b50725e61ae.png)
+<p align="center">
+<img src="_img_instructions/upload_90f1a933f3f7092f2a4d4b50725e61ae.png" alt="" width="70%"/>
+</p>
 
 ### Animations
 
-> **IMPORTANT**: we will use animation in Python.
-
-Please check that the following code is running or your machine.
+> **IMPORTANT**: we will use animation in Python. Please check that the following code is running or your machine.
 
 ```python=
-# to have the animation you need to configure properly
-# your jupyter lab
-# From 
-# https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
+# to have the animation you need to configure properly your jupyter lab
+# From https://towardsdatascience.com/interactive-controls-for-jupyter-notebooks-f5c94829aee6
 
 # > pip install ipywidgets
 # > jupyter nbextension enable --py widgetsnbextension
@@ -214,7 +229,6 @@ Please check that the following code is running or your machine.
 # Possibly you need also nodejs 
 # https://anaconda.org/conda-forge/nodejs
 # > conda install -c conda-forge nodejs 
-
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -230,7 +244,10 @@ output = interactive_plot.children[-1]
 output.layout.height = '300px'
 interactive_plot
 ```
-![](_img_instructions/upload_0dff4499bd5e7b21942e1990cd76d0e9.png)
+
+<p align="center">
+<img src="_img_instructions/upload_0dff4499bd5e7b21942e1990cd76d0e9.png" alt="" width="70%"/>
+</p>
 
 ---
 ## Appendix: Python Packages
@@ -261,6 +278,6 @@ To get familiar with the *seaborn* package have a look at the following [summary
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf).
 [![seaborn cheat sheet](_img_instructions/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf)
 
-### The *sympy* package
+### The *sympy* package (optional)
 To get familiar with the *sympy* package have a look at the following [summary poster](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf).
 [![sympy cheat sheet](_img_instructions/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png)](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf)
