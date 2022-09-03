@@ -56,7 +56,7 @@ You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/
 
 ## Installation
 
-Please install the Anaconda distribution from
+Unless you already have your favorite Python distribution installed, we suggest to install the **Anaconda** distribution from
 https://www.anaconda.com/distribution/
 
 <p align="center">
@@ -65,21 +65,33 @@ https://www.anaconda.com/distribution/
 
 > We suggest to install one of the latest distribution (**for example version 3.9**).
 
-Please, test the following code to check that all packages are correctly installed:
+The installation process clearly depends on your operating system. We suggest you to follow the official documentation for [Windows](https://docs.anaconda.com/anaconda/install/windows/), [Linux](https://docs.anaconda.com/anaconda/install/linux/), or [Mac](https://docs.anaconda.com/anaconda/install/mac-os/) as appropriate.
+After having installed **Anaconda**, and [verified your installation](https://docs.anaconda.com/anaconda/install/verify-install/) - as suggested in the [installation documentation](https://docs.anaconda.com/anaconda/install/) - we invite you to start [launching Jupyter Lab](#launch-jupyter-lab) and then [test that everything works](#test-that-everything-works):
 
-1. Launch Jupyter Lab from a terminal:
+## Launch Jupyter Lab
+
+Once the installation of **Anaconda** is finalised or within your existing Python distribution, you should be able to start Jupyter Lab from a terminal:
+
+1. Open a (Anaconda) terminal on your operating system:
+    - **Windows:**
+        From the Start menu, search for and open “Anaconda Prompt”:
+    - **macOS:**
+        Open Launchpad, then click the terminal icon.
+    - **Linux:**
+        Open a terminal window.
+
+2. Launch Jupyter Lab from your terminal:
 
     ```bash
     jupyter lab
     ```
 
-2. You should end-up on your default browser with a page similar to the following:
+3. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to the following:
     <p align="center">
     <img src="_img_instructions/upload_5b0618b75e4f4df0facf2a609b9354b5.png" alt="" width="70%"/>
     </p>
 
-    If you are not familiar with Python, you can start playing with simple python snippets.
-    For example, have a look to the following [notebook](tests/PythonExample.ipynb) (courtesy of *Simon Albright*), and/or follow the instructions below.
+4. Create a new "Python 3" "Notebook" and start playing with Python! If you are not familiar with Python, you can start playing with simple python snippets. For example, have a look to the following [notebook](tests/PythonExample.ipynb) (courtesy of *Simon Albright*).
 
 ## Test that everything works!
 
@@ -248,7 +260,7 @@ interactive_plot
 ```
 
 <p align="center">
-<img src="_img_instructions/upload_0dff4499bd5e7b21942e1990cd76d0e9.png" alt="" width="70%"/>
+<img src="_img_instructions/upload_0dff4499bd5e7b21942e1990cd76d0e9.png" alt="" width="40%"/>
 </p>
 
 ---
