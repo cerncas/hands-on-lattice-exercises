@@ -27,7 +27,7 @@ If you are not familiar with Python and you have not it installed on your laptop
 for example, to [jupyterLab](https://gke.mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/try.jupyter.org?urlpath=lab),
 and test the following commands:
 
-```python=
+```python
 import numpy as np
 
 # Matrix definition
@@ -54,7 +54,7 @@ In this section we will explain how to install Python and JupyterLab on your lap
 JupyterLab is a user-friendly environment to work with Python. 
 You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/).
 
-> If you already have your favorite Python distribution installed on your laptop, including JupyterLab, you might want to skip the [installation](#installation) and jump to [test that everything works](#test-that-everything-works).
+> If you already have your favorite Python distribution installed on your laptop, including JupyterLab, you might want to skip the [installation](#installation) and jump to [launch Jupyter Lab](#launch-jupyter-lab) and [test that everything works](#test-that-everything-works).
 
 ## Installation
 
@@ -88,11 +88,42 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
     ```
 
 3. Follow the instructions given in the terminal. You should end-up on your default browser with a page similar to the following:
+
     <p align="center">
     <img src="_img_instructions/upload_5b0618b75e4f4df0facf2a609b9354b5.png" alt="" width="70%"/>
     </p>
 
+    On the left hand side of the widows you should see all files under the folder in your operating system where you executed the `jupyter lab` command.
+    This will be your **working directory**. 
+
 4. Create a new "Python 3" "Notebook" and start playing with Python! If you are not familiar with Python, you can start playing with simple python snippets. For example, have a look to the following [notebook](tests/PythonExample.ipynb) (courtesy of *Simon Albright*).
+
+5. Try to import all packages that we will be using in our course:
+
+   ```python
+    # numpy: our main numerical package
+    import numpy as np
+    # matplotlib and seaborn: our plotting packages
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    # widget for producing animations:
+    from ipywidgets import interactive
+    # Note: to produce animations you might need to configure your jupyter lab properly:
+    # > pip install ipywidgets
+    # > jupyter nbextension enable --py widgetsnbextension
+    # > jupyter labextension install @jupyter-widgets/jupyterlab-manager
+
+    # linear algebra and optimisation algorithms
+    from numpy.linalg import norm
+    from scipy.optimize import minimize
+    # some other useful package
+    from copy import deepcopy
+   ```
+
+   if you happen to experience any problem, please check to have installed the whole anaconda distribution distribution.
+
+6. **Just before the start of the course**, we will ask you to download the **latest version** of [Exercises.ipynb](./Exercises.ipynb) in your **working directory**.
 
 ## Test that everything works!
 
@@ -102,7 +133,7 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
 
 Generate a random array and select specific elements:
 
-```python=
+```python
 import numpy as np
 
 # Create an array
@@ -135,7 +166,7 @@ Last 5 elements array: [0.97863634 0.51376609 0.19763518 0.7649532  0.59285346]
 
 In contrast to programming languages like C++, Python can handle vectors. No loop is required, e.g. to multiply each element with a constant or squaring it:
 
-```python=
+```python
 import numpy as np
 
 # Create an array
