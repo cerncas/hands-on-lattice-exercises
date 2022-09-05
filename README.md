@@ -11,4 +11,9 @@ The repository is based on the material prepared and updated during previous cou
 - [Exercises.ipynb](./Exercises.ipynb) will be the "canvas" used during the course. It contains all exercise with "incomplete" parts that the student will have to fill.
 - [Exercises_Solutions.ipynb](./Exercises_Solutions.ipynb) contains the solutions to all the exercises that we will tackle during the course. This notebook is provided for the student convenience, but it is clearly not expected to be used before and/or during the course itself.
 
-**NOTE:** the material in this repository is expected to evolve over time thanks to the feedback received from you! Please don't hesitate to transmit us your comments, suggestions, and complains!
+> **NOTE:** the material in this repository is expected to evolve over time thanks to the feedback received from you! Please don't hesitate to transmit us your comments, suggestions, and complains!
+
+### Known schools using this material
+
+- [CAS 2022 in Kaunas](https://indico.cern.ch/event/1117526/)
+- [CAS 2021 in Chavannes-des-Bogis](https://indico.cern.ch/event/1022988/)

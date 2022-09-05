@@ -54,10 +54,11 @@ In this section we will explain how to install Python and JupyterLab on your lap
 JupyterLab is a user-friendly environment to work with Python. 
 You can find an overview on JupyterLab [here](https://jupyterlab.readthedocs.io/en/stable/).
 
+> If you already have your favorite Python distribution installed on your laptop, including JupyterLab, you might want to skip the [installation](#installation) and jump to [test that everything works](#test-that-everything-works).
+
 ## Installation
 
-Unless you already have your favorite Python distribution installed, we suggest to install the **Anaconda** distribution from
-https://www.anaconda.com/distribution/
+We suggest to install the **Anaconda** distribution from https://www.anaconda.com/distribution/
 
 <p align="center">
 <a href=https://www.anaconda.com/distribution/><img src="_img_instructions/anaconda.png" alt="" width="70%"/></a>
@@ -271,27 +272,45 @@ You can leverage python's capability by exploring a galaxy of packages. Below yo
 ### The *numpy* package
 To get familiar with the *numpy* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf).
 You can google many other resources, but the one presented of the poster covers the set of instructions you should familiar with.
-[![numpy cheat sheet](_img_instructions/upload_6ffb4d07b1ebb895528f2a34aae41ec6.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+
+<p align="center">
+<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf><img src="_img_instructions/upload_6ffb4d07b1ebb895528f2a34aae41ec6.png" alt="" width="90%"/></a>
+</p>
 
 ### The *matplotlib* package
 To get familiar with the *matplotlib* package have a look at the following [summary poster](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf).
-[![matplotlib cheat sheet](_img_instructions/upload_4b54812812e21978b600b860ba1ddf5b.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf)
+
+<p align="center">
+<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf><img src="_img_instructions/upload_4b54812812e21978b600b860ba1ddf5b.png" alt="" width="90%"/></a>
+</p>
 
 ### The *linalg* module
 To get familiar with the Linear Algebra (linalg) module have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf).
-[![linalg cheat sheet](_img_instructions/upload_15561fc12184bb0ae3f9cf7b1850317a.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
+
+<p align="center">
+<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf><img src="_img_instructions/upload_15561fc12184bb0ae3f9cf7b1850317a.png" alt="" width="90%"/></a>
+</p>
 
 ### The *pandas* package (optional)
 To get familiar with the *pandas* package have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf).
-[![pandas cheat sheet](_img_instructions/upload_90383c01e29d29fb6a5516c613e22c4d.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf)
+
+<p align="center">
+<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf><img src="_img_instructions/upload_90383c01e29d29fb6a5516c613e22c4d.png" alt="" width="90%"/></a>
+</p>
 
 ### The *seaborn* package (optional)
 To get familiar with the *seaborn* package have a look at the following [summary poster](
 https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf).
-[![seaborn cheat sheet](_img_instructions/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf)
+
+<p align="center">
+<a href=https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf><img src="_img_instructions/upload_9a3c3f5ca48bbd567a0662df20dbd16f.png" alt="" width="90%"/></a>
+</p>
 
 ### The *sympy* package (optional)
 To get familiar with the *sympy* package have a look at the following [summary poster](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf).
-[![sympy cheat sheet](_img_instructions/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png)](http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf)
+
+<p align="center">
+<a href=http://daabzlatex.s3.amazonaws.com/9065616cce623384fe5394eddfea4c52.pdf><img src="_img_instructions/upload_fc7a06ea6135d2bf17311bd7a91f1a9f.png" alt="" width="90%"/></a>
+</p>
