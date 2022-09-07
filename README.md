@@ -19,7 +19,7 @@ The repository is based on the material prepared and updated during previous cou
 - [CAS 2021 in Chavannes-des-Bogis](https://indico.cern.ch/event/1022988/)
 
 
-## Notes for the maintainers and presenter
+## Notes for the maintainer and presenter
 
 ### Edit the material
 
@@ -28,7 +28,17 @@ One is expected to edit the material:
 
 1. from **github directly** using the github editor
 2. from **one's computer** cloning the repository, editing/adding/deleting the desired content, finally pushing the content to github
-3. from overleaf. The project xxxx (read_only) is also synched (manually) with github repository
+
+### Create a pdf of an .md file
+
+The typically suggested way is to use `pandoc` package:
+
+```bash
+pandoc Setup_Instructions.md -o Setup_Instructions.pdf
+```
+
+unfortunately, this doesn't work when you have HTML inside your `.md` file, as we presently have...
+A solution could be to use the [Print extension](https://marketplace.visualstudio.com/items?itemName=pdconsec.vscode-print) for VisualStudio...
 
 ### During the course
 
