@@ -28,6 +28,11 @@ One is expected to edit the material:
 1. from **github directly** using the github editor
 2. from **one's computer** cloning the repository, editing/adding/deleting the desired content, finally pushing the content to github
 
+### (CERN) GitLab vs GitHub
+
+See article [KB0003132](https://cern.service-now.com/service-portal?id=kb_article&n=KB0003132) to learn about CERN policy.
+To setup a "Pull mirroring" on the CERN GitLab to retrieve a copy of GitHub repository, see the [official documentation](https://docs.gitlab.com/ee/user/project/repository/mirror/pull.html).
+
 ### Create a pdf of an .md file
 
 The typically suggested way is to use `pandoc` package:
