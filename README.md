@@ -3,7 +3,7 @@
 
 During the [CAS 2022 in Kaunas](https://indico.cern.ch/event/1117526/) (Lithuania), we will be using Python or MATLAB as scripting languages for the Hands-On Lattice Calculation course.
 
-This [repository](https://github.com/dgamba/CAS_2022) contains all material used during the **python** version of the course.
+This repository contains all material used during the **python** version of the course.
 The repository is based on the material prepared and updated during previous courses by *G. Sterbini, A. Latina, A. Poyet,* CERN and *V. Ziemann,* Uppsala University.
 
 - [Setup_Instructions.md](./Setup_Instructions.md) contains all information to get ready for the course. We kindly ask the student to read this document **before coming** to CAS to **prepare yourself** (and **your laptop**) for the course. 
@@ -17,7 +17,6 @@ The repository is based on the material prepared and updated during previous cou
 
 - [CAS 2022 in Kaunas](https://indico.cern.ch/event/1117526/)
 - [CAS 2021 in Chavannes-des-Bogis](https://indico.cern.ch/event/1022988/)
-
 
 ## Notes for the maintainer and presenter
 
@@ -53,9 +52,9 @@ Alternatively, one can:
 
 - create a **html** of the slides:
    ```bash
-   jupyter nbconvert Untitled2.ipynb --to slides
+   jupyter nbconvert Exercises_Solutions.ipynb --to slides
    ```
 - create a **pdf** of the slides:
    ```bash
-   jupyter nbconvert Untitled2.ipynb --to pdf
+   jupyter nbconvert Exercises_Solutions.ipynb --to pdf
    ```
