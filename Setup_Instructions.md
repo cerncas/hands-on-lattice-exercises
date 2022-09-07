@@ -1,4 +1,4 @@
-# Hands-On Lattice and Longitudinal Calculations - Setup Instructions
+# Hands-On Lattice (and Longitudinal) Calculations using Python- Setup Instructions
 ---
 
 During the course we will use **Python3** in a **Jupyter notebook** with [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) and, mostly, the [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/) packages. We will explain in the following sections how to install all necessary software on **your laptop**.
