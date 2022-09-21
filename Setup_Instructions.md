@@ -121,13 +121,17 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
     from copy import deepcopy
    ```
 
-   if you happen to experience any problem, please check to have installed the whole anaconda distribution distribution.
+   if you happen to experience any problem, please check to have installed the whole anaconda distribution distribution. Alternatively, you can try to install each single package independently
 
-6. **Just before the start of the course**, we will ask you to download the **latest version** of [Exercises.ipynb](./Exercises.ipynb) in your **working directory**.
+   ```python
+   pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab
+   ```
+
+6. **Just before the start of the course**, we will ask you to download the **latest version** of [Exercises.ipynb](./Exercises.ipynb) (even better, the whole repository) in your **working directory**.
 
 ## Test that everything works!
 
-> Please, make sure to go throw all the examples below to familiarise with the typical Python concepts that will be used during the course, but also to verify your installation. 
+> Please, make sure to go throw all the examples below to familiarize with the typical Python concepts that will be used during the course, but also to verify your installation. 
 
 ### Indexing
 

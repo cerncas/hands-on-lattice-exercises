@@ -47,7 +47,13 @@ A solution could be to use the [Print extension](https://marketplace.visualstudi
 ### During the course
 
 The students are expected to download [Exercises.ipynb](./Exercises.ipynb) on their computer, and open it using Jupyter Lab.
-The presenter can also use Jupyter Lab and do the exercise with the students, or can present [Exercises_Solutions.ipynb](./Exercises_Solutions.ipynb) in presentation mode:
+The presenter can also use Jupyter Lab and do the exercise with the students. To launch Jupyter Lab, move in a terminal to this folder and execute:
+
+```bash
+jupyter lab
+```
+
+One can also present [Exercises_Solutions.ipynb](./Exercises_Solutions.ipynb) in presentation mode:
 
 ```bash
 jupyter nbconvert Exercises_Solutions.ipynb --to slides --post serve
@@ -61,5 +67,6 @@ Alternatively, one can:
    ```
 - create a **pdf** of the slides:
    ```bash
+   conda install pandoc
    jupyter nbconvert Exercises_Solutions.ipynb --to pdf
    ```
