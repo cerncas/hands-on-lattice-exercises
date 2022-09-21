@@ -121,13 +121,15 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
     from copy import deepcopy
    ```
 
-   if you happen to experience any problem, please check to have installed the whole anaconda distribution distribution. Alternatively, you can try to install each single package independently
+   if you happen to experience any problem, please check to have installed the whole anaconda distribution distribution. Alternatively, you can try to go back to your terminal, and install each single package independently, e.g.:
 
    ```python
    pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab
    ```
 
 6. **Just before the start of the course**, we will ask you to download the **latest version** of [Exercises.ipynb](./Exercises.ipynb) (even better, the whole repository) in your **working directory**.
+
+7. **Optional:** instead of running Jupyter lab within a browser, you can try to install and the [jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop) application.
 
 ## Test that everything works!
 
