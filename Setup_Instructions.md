@@ -127,9 +127,19 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
    pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab
    ```
 
-6. **Just before the start of the course**, we will ask you to download the **latest version** of [Exercises.ipynb](./Exercises.ipynb) (even better, the whole repository) in your **working directory**.
+6. **Just before the start of the course**, we will ask you to clone the **cas_2023** branch of this repository in your **working directory**, and start `jupyter lab` within it:
 
-7. **Optional:** instead of running Jupyter lab within a browser, you can try to install and the [jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop) application.
+    ```bash
+    git clone -b cas_2023 https://github.com/cerncas/hands-on-lattice-exercises/
+    cd hands-on-lattice-exercises
+    jupyter lab
+    ```
+
+7. **Optional:** instead of running Jupyter lab within a browser, you can use your favourite editor and/or IDE ((Integrated Development Environment), e.g.
+
+    - you can use `jupyter notebook` instead of `jupyter lab`
+    - you can try out [jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop) application.
+    - you can try out [Visual Studio Code](https://code.visualstudio.com) application.
 
 ## Test that everything works!
 

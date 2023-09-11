@@ -1,5 +1,5 @@
 # Hands-On Lattice and Longitudinal Calculations - Python version
-*D. Gamba, A. Latina, T. Prebibaj, A. Poyet, G. Sterbini, V. Ziemann*
+*D. Gamba, A. Latina, T. Prebibaj, A. Poyet, G. Russo, G. Sterbini, V. Ziemann*
 
 During the [CAS 2023 in Santa Susanna](https://indico.cern.ch/event/1226773/) (Spain), we will be using Python as scripting languages for the Hands-On Lattice Calculation course.
 
