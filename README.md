@@ -8,7 +8,7 @@ The repository is based on the material prepared and updated during previous cou
 
 - [Setup_Instructions.md](./Setup_Instructions.md) contains all information to get ready for the course. We kindly ask the student to read this document **before coming** to CAS to **prepare yourself** (and **your laptop**) for the course. 
 - [CAS_Optics_Primer.pdf](./CAS_Optics_Primer.pdf) is the primer of the course. You are invited to consult it before, during, and after the course.
-- The `*.ipynb` notebooks will be the "canvas" used during the course. They contain all exercise with "incomplete" parts that the student will have to fill in. Solutions to all the exercises are also provided in `*_Solutions.ipynb`. These notebooks are provided for the student convenience, but they are clearly not expected to be used before and/or during the course itself...
+- The `*.ipynb` notebooks will be the "canvas" used during the course. They contain all exercise with "incomplete" parts that the student will have to fill in. Solutions to all the exercises are also provided in `*-solution.ipynb`. These notebooks are provided for the student convenience, but they are clearly not expected to be used before and/or during the course itself...
     - [01_Guided_Exercises](./01_Guided_Exercises.ipynb) Guided/already solved exercises to introduce the hands-on course.
     - [02_Single_Particle_Beamline](./02_Single_Particle_Beamline.ipynb) Exercises to probe single particle dynamics.
     - [03_Multi_Particles_Beamline](./03_Multi_Particles_Beamline.ipynb) Exercises to probe multi-particle dynamics.
@@ -58,20 +58,20 @@ The presenter can also use Jupyter Lab and do the exercise with the students. To
 jupyter lab
 ```
 
-One can also present [01_Guided_Exercises.ipynb](./01_Guided_Exercises.ipynb) in presentation mode:
+One can also present [01_Guided_Exercises-solution.ipynb](./01_Guided_Exercises-solution.ipynb) in presentation mode:
 
 ```bash
-jupyter nbconvert 01_Guided_Exercises.ipynb --to slides --post serve
+jupyter nbconvert 01_Guided_Exercises-solution.ipynb --to slides --post serve
 ```
 
 Alternatively, one can:
 
 - create a **html** of the slides:
    ```bash
-   jupyter nbconvert 01_Guided_Exercises.ipynb --to slides
+   jupyter nbconvert 01_Guided_Exercises-solution.ipynb --to slides
    ```
 - create a **pdf** of the slides:
    ```bash
    conda install pandoc
-   jupyter nbconvert 01_Guided_Exercises.ipynb --to pdf
+   jupyter nbconvert 01_Guided_Exercises-solution.ipynb --to pdf
    ```
