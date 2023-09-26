@@ -1,4 +1,4 @@
-# Hands-On Lattice (and Longitudinal) Calculations using Python- Setup Instructions
+# Hands-On Lattice (and Longitudinal) Calculations using Python - Setup Instructions
 ---
 
 During the course we will use **Python3** in a **Jupyter notebook** with [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) and, mostly, the [numpy](https://numpy.org/) and [matplotlib](https://matplotlib.org/) packages. We will explain in the following sections how to install all necessary software on **your laptop**.
@@ -127,7 +127,7 @@ Once the installation of **Anaconda** is finalised or within your existing Pytho
    pip install numpy matplotlib seaborn scipy ipywidgets jupyter jupyterlab
    ```
 
-6. **Just before the start of the course**, we will ask you to clone the **cas_2023** branch of this repository in your **working directory**, and start `jupyter lab` within it:
+6. **Just before the start of the lattice calculation course**, we will ask you to clone the **cas_2023** branch of this repository in your **working directory**, and start `jupyter lab` within it:
 
     ```bash
     git clone -b cas_2023 https://github.com/cerncas/hands-on-lattice-exercises/

@@ -58,20 +58,20 @@ The presenter can also use Jupyter Lab and do the exercise with the students. To
 jupyter lab
 ```
 
-One can also present [Exercises_Solutions.ipynb](./Exercises_Solutions.ipynb) in presentation mode:
+One can also present [01_Guided_Exercises.ipynb](./01_Guided_Exercises.ipynb) in presentation mode:
 
 ```bash
-jupyter nbconvert Exercises_Solutions.ipynb --to slides --post serve
+jupyter nbconvert 01_Guided_Exercises.ipynb --to slides --post serve
 ```
 
 Alternatively, one can:
 
 - create a **html** of the slides:
    ```bash
-   jupyter nbconvert Exercises_Solutions.ipynb --to slides
+   jupyter nbconvert 01_Guided_Exercises.ipynb --to slides
    ```
 - create a **pdf** of the slides:
    ```bash
    conda install pandoc
-   jupyter nbconvert Exercises_Solutions.ipynb --to pdf
+   jupyter nbconvert 01_Guided_Exercises.ipynb --to pdf
    ```
