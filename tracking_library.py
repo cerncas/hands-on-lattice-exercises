@@ -20,10 +20,9 @@ from copy import deepcopy
 # > jupyter labextension install @jupyter-widgets/jupyterlab-manager
 from ipywidgets import interactive
 
-# some setup for the plotting
-from matplotlib import pyplot as plt
-
-
+# ignore "FutureWarning"... (temporary patch for seaborn package issues...)
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 ###################################################
 # Beamline definition and tracking functions
