@@ -21,11 +21,11 @@ from copy import deepcopy
 from ipywidgets import interactive
 
 # ignore "FutureWarning"... (temporary patch for seaborn package issues...)
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
+#import warnings
+#warnings.simplefilter(action='ignore', category=FutureWarning)
 
 ###################################################
-# Beamline definition and tracking functions
+# Beamline element definitions 
 ###################################################
 
 # Modelling of a drift
@@ -45,6 +45,41 @@ def Q(f):
     # and the element length 
     return [{'matrix':np.array([[1, 0],[-1/f, 1]]), 'length':0}]
 
+# Modeling of thick sector bend
+def B(phi, L):
+    '''Returns a list containing a thick bend with and length L'''
+    # NB: we return a list with a dict
+    # the dict contains the matrix (the transformation)
+    # and the element length 
+
+    # compute the 2D bend matrix:
+    bend_matrix = np.array(
+        [[np.cos(phi),          L/phi*np.sin(phi)],
+        [-np.sin(phi)/L*phi,    np.cos(phi)]]
+        )
+
+    return [{'matrix':bend_matrix, 'length':L}]
+
+
+###################################################
+# Beamline element definitions with energy (3x3 matrices)
+###################################################
+
+# The drift as a sequence of a single tuple
+D3 = lambda L: [{'matrix': np.array([[1, L, 0],[0, 1, 0], [0, 0, 1]]), 'length':L}]
+
+# The quadrupole 
+Q3 = lambda f: [{'matrix': np.array([[1, 0, 0],[-1/f, 1,0],[0,0,1]]), 'length':0 }]
+
+# The sector bend
+B3 = lambda phi, l: [{'matrix': np.array([[np.cos(phi),l/phi*np.sin(phi), l/phi*(1-np.cos(phi))],\
+                              [-np.sin(phi)/l*phi, np.cos(phi), np.sin(phi)],
+                             [0,0,1]]), 'length': l}]
+
+
+###################################################
+# Beamline manipulations and tracking functions
+###################################################
 
 # From a list of elements - or beamline - to an equivalent single element
 def getEquivalentElement(beamline):
@@ -89,16 +124,11 @@ def transportParticles(X_0, beamline, s_0=0):
     return {'x':  coords[:,0,:], # [s_idx, particle_idx]
             'xp': coords[:,1,:], # [s_idx, particle_idx]
             's':  s,   # [s_idx]
-            'coords': coords,}   # [s_idx, coord_idx, particle_idx]
+            'coords': coords}   # [s_idx, coord_idx, particle_idx]
 
-
-
-###################################################
-# Multi-particle tracking functions
-###################################################
 
 def transportSigmas(sigma_0, beamline):
-    '''Transport the input sigma matrix (sigma_0) along the given beamline
+    '''Transport the input sigma matrix (\sigma_{0}) along the given beamline
     
     It will return a dictionary containing the following key:values
         'sigma11': a N-long numpy array with the \sigma_{11} value for all N-elements of the beamline
@@ -155,6 +185,10 @@ def twiss(beamline):
     gamma = (1+alpha**2)/beta
     
     return Q, beta, alpha, gamma
+
+###################################################
+# Other useful systems
+###################################################
 
 def particle_emittance(x, xp, beta, alpha):
     '''Returns the single particle emittance for a given 
