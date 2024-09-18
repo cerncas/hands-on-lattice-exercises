@@ -12,28 +12,20 @@ import numpy as np
 # Modelling of a thick quadrupole
 def Qthick(k1, l):
     '''Returns a thick quadrupole element (2x2 case)'''
-    if k1>0:
-        matrix = np.array([[np.cos(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sin(np.sqrt(k1)*l)],
-                           [-np.sqrt(k1)*np.sin(np.sqrt(k1)*l), np.cos(np.sqrt(k1)*l)]])
-    else:
-        k1 = -k1
-        matrix = np.array([[np.cosh(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sinh(np.sqrt(k1)*l)],
-                           [np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), np.cosh(np.sqrt(k1)*l)]])
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
+
     return  [{'matrix': matrix, 'length': l}]
 
 
 # Modelling of a thick quadrupole with energy effects
 def Qthick3(k1, l):
     '''Returns a thick quadrupole element (3x3 case)'''
-    if k1>0:
-        matrix = np.array([[np.cos(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sin(np.sqrt(k1)*l), 0],\
-                           [-np.sqrt(k1)*np.sin(np.sqrt(k1)*l), np.cos(np.sqrt(k1)*l), 0],\
-                           [0,0,1]])
-    else:
-        k1 = -k1
-        matrix = np.array([[np.cosh(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), 0],\
-                           [np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), np.cosh(np.sqrt(k1)*l), 0],\
-                           [0,0,1]])
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
+
     return [{'matrix': matrix, 'length': l}]
 
 
@@ -43,50 +35,35 @@ def Qthick3(k1, l):
 
 def Qthick4(k1, l):
     '''Returns a thick quadrupole element (4x4 case)'''
-    if k1>0:
-        matrix=np.array([[np.cos(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sin(np.sqrt(k1)*l), 0,0],
-                         [-np.sqrt(k1)*np.sin(np.sqrt(k1)*l), np.cos(np.sqrt(k1)*l), 0, 0],
-                         [0,0,np.cosh(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sinh(np.sqrt(k1)*l)],
-                         [0,0,np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), np.cosh(np.sqrt(k1)*l)],
-                        ])
-    else:
-        k1=-k1
-        matrix=np.array([[np.cosh(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), 0,0],
-                         [np.sqrt(k1)*np.sinh(np.sqrt(k1)*l), np.cosh(np.sqrt(k1)*l), 0,0],
-                         [0,0,np.cos(np.sqrt(k1)*l), 1/np.sqrt(k1)*np.sin(np.sqrt(k1)*l)],
-                         [0,0,-np.sqrt(k1)*np.sin(np.sqrt(k1)*l), np.cos(np.sqrt(k1)*l)],
-                         ])
-    return [{'matrix': matrix, 'length': l}]
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
 
+    return [{'matrix': matrix, 'length': l}]
 
 def D4(l):
     '''Returns a drift (4x4 case)'''
-    matrix = np.array([[1, l, 0, 0],
-                       [0, 1, 0, 0], 
-                       [0, 0, 1, l], 
-                       [0, 0, 0, 1]])    
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
+    
     return [{'matrix': matrix, 'length': l}]
 
 def Q4(f):
     '''Returns a quadrupole of focal length f (4x4 case)'''
-    matrix = np.array([[1, 0, 0, 0],
-                       [-1/f, 1, 0, 0],
-                       [0, 0, 1, 0],
-                       [0, 0, 1/f, 1]])
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
     
     return [{'matrix': matrix, 'length': 0}]
 
 def B4(phi, l):
     '''Returns a sector bend of angle phi, and length l (4x4 case)'''
-    matrix = np.array([[np.cos(phi),l/phi*np.sin(phi), 0, 0],
-                        [-np.sin(phi)/l*phi, np.cos(phi), 0, 0],
-                        [0, 0, 1, l],
-                        [0, 0, 0, 1]])
+    print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+    matrix = []
+    # YOUR IMPLEMENTATION HERE
     
     return [{'matrix': matrix, 'length': l}]
-
-
-
 
 def solenoid(Bs, L, B_rho, q):
     '''Returns the L-long solenoid element with field Bs 
