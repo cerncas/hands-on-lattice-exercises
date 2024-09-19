@@ -47,7 +47,7 @@ def Q(f):
 
 # Modeling of thick sector bend
 def B(phi, L):
-    '''Returns a list containing a thick bend with and length L'''
+    '''Returns a list containing a thick bend with deflecting angle phi (in rad) and length L'''
     # NB: we return a list with a dict
     # the dict contains the matrix (the transformation)
     # and the element length 
