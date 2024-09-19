@@ -164,8 +164,8 @@ def transportSigmas(sigma_0, beamline):
 def twiss(beamline):
     '''
     Computes and returns the closed solution (if it exist!) for:
-    Tune (Q) and Twiss parameters (beta, alpha, gamma) of the given beamline.
-    i.t. it returns (Q, beta, alpha, gamma)
+    Tune and Twiss parameters (beta, alpha, gamma) of the given beamline.
+    i.t. it returns (tune, beta, alpha, gamma)
     '''
 
     # first, compute the equivalent "One-Turn-Map", and extract its matrix:
@@ -180,12 +180,12 @@ def twiss(beamline):
     mu = np.arccos(0.5*(R[0,0]+R[1,1]))
     if (R[0,1]<0): 
         mu = 2*np.pi-mu
-    Q = mu/(2*np.pi)
+    tune = mu/(2*np.pi)
     beta = R[0,1]/np.sin(mu)
     alpha = (0.5*(R[0,0]-R[1,1]))/np.sin(mu)
     gamma = (1+alpha**2)/beta
     
-    return Q, beta, alpha, gamma
+    return tune, beta, alpha, gamma
 
 ###################################################
 # Other useful systems

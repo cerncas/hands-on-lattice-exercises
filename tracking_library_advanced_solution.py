@@ -4,6 +4,7 @@
 
 # numpy: our main numerical package
 import numpy as np
+from tracking_library import *
 
 ###################################################
 # Definition for thick quadrupoles
@@ -172,11 +173,11 @@ def twiss4D(beamline):
         mu = np.arccos(0.5*(R[0,0]+R[1,1]))
         if (R[0,1]<0): 
             mu = 2*np.pi-mu
-        Q = mu/(2*np.pi)
+        tune = mu/(2*np.pi)
         beta = R[0,1]/np.sin(mu)
         alpha = (0.5*(R[0,0]-R[1,1]))/np.sin(mu)
         gamma = (1+alpha**2)/beta
-        return Q, beta, alpha, gamma
+        return tune, beta, alpha, gamma
 
     
     # 4x4 case, we assume uncoupled motion!!!
