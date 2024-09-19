@@ -102,7 +102,7 @@ def getEquivalentElement(beamline):
 
 # Tracking particles along a beamline
 def transportParticles(X_0, beamline, s_0=0):
-    '''Track the particle(s) `X_0` along the given `beamline`. 
+    r'''Track the particle(s) `X_0` along the given `beamline`. 
     If needed, one can specify an initial longitudinal position `s_0`, otherwise set to 0.
 
     It will return a dictionary containing the following key:values
@@ -128,7 +128,7 @@ def transportParticles(X_0, beamline, s_0=0):
 
 
 def transportSigmas(sigma_0, beamline):
-    '''Transport the input sigma matrix (\sigma_{0}) along the given beamline
+    r'''Transport the input sigma matrix (\sigma_{0}) along the given beamline
     
     It will return a dictionary containing the following key:values
         'sigma11': a N-long numpy array with the \sigma_{11} value for all N-elements of the beamline
@@ -163,8 +163,9 @@ def transportSigmas(sigma_0, beamline):
 
 def twiss(beamline):
     '''
-    Computes and returns the closed solution (if it exist!) Tune (Q) and Twiss parameters 
-    beta, alpha, gamma of the given beamline.
+    Computes and returns the closed solution (if it exist!) for:
+    Tune (Q) and Twiss parameters (beta, alpha, gamma) of the given beamline.
+    i.t. it returns (Q, beta, alpha, gamma)
     '''
 
     # first, compute the equivalent "One-Turn-Map", and extract its matrix:
