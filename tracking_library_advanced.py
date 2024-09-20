@@ -4,6 +4,7 @@
 
 # numpy: our main numerical package
 import numpy as np
+from tracking_library import *
 
 ###################################################
 # Definition for thick quadrupoles
@@ -97,12 +98,14 @@ def transportParticles4D(X_0, beamline, s_0=0):
                 's':  s,             # [s_idx]
                 'coords': coords,}   # [s_idx, coord_idx, particle_idx]
     elif np.shape(X_0)[0]==4:
-        return {'x':  coords[:,0,:], # [s_idx, particle_idx]
-            'xp': coords[:,1,:],     # [s_idx, particle_idx]
-            'y':  coords[:,2,:],     # [s_idx, particle_idx]
-            'py': coords[:,3,:],     # [s_idx, particle_idx]
+        print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
+        return {'x':  [],# YOUR IMPLEMENTATION HERE
+            'xp': [],# YOUR IMPLEMENTATION HERE
+            'y':  [],# YOUR IMPLEMENTATION HERE
+            'py': [],# YOUR IMPLEMENTATION HERE
             's':  s,                 # [s_idx]
             'coords': coords,}       # [s_idx, coord_idx, particle_idx]
+
 
 
 # we need a minor update to the transportSigmas4D
@@ -122,14 +125,15 @@ def transportSigmas4D(sigma_0, beamline):
                 's':  s,
                 'sigmas': sigmas,}
     elif len(sigma_0)==4:
+        print('NOT YET IMPLEMENTED! Please, edit me in `tracking_library_advanced.py` ... ')
         return {'sigma11': sigmas[:, 0, 0],
                 'sigma12': sigmas[:, 0, 1],
                 'sigma21': sigmas[:, 1, 0], # equal to sigma12
                 'sigma22': sigmas[:, 1, 1],
-                'sigma33': sigmas[:, 2, 2],
-                'sigma34': sigmas[:, 2, 3],
-                'sigma43': sigmas[:, 3, 2], # equal to sigma34
-                'sigma44': sigmas[:, 3, 3],
+                'sigma33': [],# YOUR IMPLEMENTATION HERE
+                'sigma34': [],# YOUR IMPLEMENTATION HERE
+                'sigma43': [],# YOUR IMPLEMENTATION HERE
+                'sigma44': [],# YOUR IMPLEMENTATION HERE
                 's': s,
                 'coords': sigmas,}
     
@@ -171,19 +175,38 @@ def twiss4D(beamline):
         alphax = (0.5*(Rx[0,0]-Rx[1,1]))/np.sin(mux)
         gammax = (1+alphax**2)/betax
         
-        Ry = R[2:,2:]
-        # check that this matrix is stable:
-        if np.abs(0.5*(Ry[0,0]+Ry[1,1])) > 1:
-            raise ValueError('This beamline is not stable!')
         
-        muy = np.arccos(0.5*(Ry[0,0]+Ry[1,1]))
-        if (Ry[0,1]<0): 
-            muy = 2*np.pi-muy
-        Qy = muy/(2*np.pi)
-        betay = Ry[0,1]/np.sin(muy)
-        alphay = (0.5*(Ry[0,0]-Ry[1,1]))/np.sin(muy)
-        gammay = (1+alphay**2)/betay
+        # YOUR IMPLEMENTATION HERE
+        Qy = ''
+        betay = ''
+        alphay = ''
+        gammay = ''
         
+                
         return (Qx, betax, alphax, gammax, Qy, betay, alphay, gammay)
     
-       
+###################################################
+# Other useful systems
+###################################################
+
+def particle_emittance(x, xp, beta, alpha):
+    '''Returns the single particle emittance for a given 
+       x, xp particle coordinates and assumed beta and alpha parameters
+    '''
+    # compute gamma
+    gamma = (alpha**2 + 1)/beta
+    # compute and return the associated single particle emittance
+    epsilon = gamma*x**2 + 2*alpha*x*xp + beta*xp**2
+    return epsilon
+
+def ellipse_points(emittance, beta, alpha, n_points = 100):
+    ''' Returns the x,x' coordinates of an ellipse in phase space for 
+        the given Twiss parameters (beta, gamma, emittance)
+    '''
+    # generate a uniform sampling of phases:
+    thetas = np.linspace(0, 2*np.pi, n_points)
+    # generate coordinates
+    x  = np.sqrt(emittance*beta)*np.cos(thetas)
+    xp = -np.sqrt(emittance/beta)*(alpha*np.cos(thetas)-np.sin(thetas))
+    # return them in our usual form
+    return np.array([x, xp])

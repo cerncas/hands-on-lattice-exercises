@@ -210,4 +210,31 @@ def twiss4D(beamline):
         
         return (Qx, betax, alphax, gammax, Qy, betay, alphay, gammay)
     
+
+###################################################
+# Other useful systems
+###################################################
+
+def particle_emittance(x, xp, beta, alpha):
+    '''Returns the single particle emittance for a given 
+       x, xp particle coordinates and assumed beta and alpha parameters
+    '''
+    # compute gamma
+    gamma = (alpha**2 + 1)/beta
+    # compute and return the associated single particle emittance
+    epsilon = gamma*x**2 + 2*alpha*x*xp + beta*xp**2
+    return epsilon
+
+def ellipse_points(emittance, beta, alpha, n_points = 100):
+    ''' Returns the x,x' coordinates of an ellipse in phase space for 
+        the given Twiss parameters (beta, gamma, emittance)
+    '''
+    # generate a uniform sampling of phases:
+    thetas = np.linspace(0, 2*np.pi, n_points)
+    # generate coordinates
+    x  = np.sqrt(emittance*beta)*np.cos(thetas)
+    xp = -np.sqrt(emittance/beta)*(alpha*np.cos(thetas)-np.sin(thetas))
+    # return them in our usual form
+    return np.array([x, xp])
+    
        
