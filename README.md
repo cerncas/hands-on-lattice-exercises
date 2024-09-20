@@ -1,7 +1,7 @@
 # Hands-On Lattice and Longitudinal Calculations - Python version
-*D. Gamba, A. Latina, T. Prebibaj, A. Poyet, G. Russo, G. Sterbini, V. Ziemann*
+*D. Gamba, A. Latina, T. Prebibaj, A. Poyet, G. Russo, F. Soubelet, G. Sterbini, V. Ziemann*
 
-During the [CAS 2023 in Santa Susanna](https://indico.cern.ch/event/1226773/) (Spain), we will be using Python as scripting languages for the Hands-On Lattice Calculation course.
+During the [CAS 2024 in Santa Susanna](https://indico.cern.ch/event/1356988/) (Spain), we will be using Python as scripting languages for the Hands-On Lattice Calculation course.
 
 This repository contains all material used during the the course.
 The repository is based on the material prepared and updated during previous courses by *G. Sterbini, A. Latina, A. Poyet,* CERN and *V. Ziemann,* Uppsala University.
@@ -19,6 +19,7 @@ The repository is based on the material prepared and updated during previous cou
 
 ### Known schools using this material
 
+- [CAS 2024 in Santa Susanna](https://indico.cern.ch/event/1356988/)
 - [CAS 2023 in Santa Susanna](https://indico.cern.ch/event/1226773/)
 - [CAS 2022 in Kaunas](https://indico.cern.ch/event/1117526/)
 - [CAS 2021 in Chavannes-des-Bogis](https://indico.cern.ch/event/1022988/)
@@ -48,6 +49,14 @@ pandoc Setup_Instructions.md -o Setup_Instructions.pdf
 
 unfortunately, this doesn't work when you have HTML inside your `.md` file, as we presently have...
 A solution could be to use the [Print extension](https://marketplace.visualstudio.com/items?itemName=pdconsec.vscode-print) for VisualStudio...
+
+### Update links to events
+
+E.g. update all the links to CAS school event of the year using `sed`
+
+```bash
+sed -i -e 's/1117526\/contributions\/4978192/1356988\/contributions\/5713241/g' 01_Single_Particle_solutions.ipynb
+```
 
 ### During the course
 
