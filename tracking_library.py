@@ -55,7 +55,7 @@ def B(phi, L):
     # compute the 2D bend matrix:
     bend_matrix = np.array(
         [[np.cos(phi),          L/phi*np.sin(phi)],
-        [-np.sin(phi)/L*phi,    np.cos(phi)]]
+        [-phi/L*np.sin(phi),    np.cos(phi)]]
         )
 
     return [{'matrix':bend_matrix, 'length':L}]
