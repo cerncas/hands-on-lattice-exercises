@@ -236,5 +236,16 @@ def ellipse_points(emittance, beta, alpha, n_points = 100):
     xp = -np.sqrt(emittance/beta)*(alpha*np.cos(thetas)-np.sin(thetas))
     # return them in our usual form
     return np.array([x, xp])
+
+def beam(emittance, beta, alpha, n_particles = 100):
+    ''' Returns the x,x' coordinates of Gaussian beam matched to 
+        the given Twiss parameters (beta, gamma, emittance)
+    '''
+    gamma = (1+alpha**2)/beta
+    sigma_matrix = np.array(
+        [[ beta*emittance, -alpha*emittance],
+         [-alpha*emittance, gamma*emittance]])
+
+    return np.random.multivariate_normal((0, 0), sigma_matrix, n_particles).transpose()
     
        
