@@ -9,7 +9,7 @@ The repository is based on the material prepared and updated during previous cou
 Before to start, please make sure you have a working Python installation. You can find setup instruction in a dedicated [repository](https://github.com/cerncas/hands-on-python/blob/main/Setup_Instructions.md). We kindly ask the student to read this document **before coming** to CAS to **prepare yourself** (and **your laptop**) for the course. 
 
 
-- The `*.ipynb` notebooks will be the "canvas" used during the course. They contain all exercise with "incomplete" parts that the student will have to fill in. Solutions to all the exercises are also provided in `*_solutions.ipynb`. These notebooks are provided for the student convenience, but they are clearly not expected to be used before and/or during the course itself...
+- The `*.ipynb` notebooks will be the "canvas" used during the course. They contain all exercise with "incomplete" parts that the student will have to fill in. Solutions to all the exercises are also provided in `solutions/*_solutions.ipynb`. These notebooks are provided for the student convenience, but they are clearly not expected to be used before and/or during the course itself...
     - [01_Single_Particle](./01_Single_Particle_Optional_Physics.ipynb) Exercises to probe single particle dynamics.
     - [02_Multi_Particles](./02_Multi_Particles.ipynb) Exercises to probe multi-particle dynamics.
     - [03_Periodic_Systems](./03_Periodic_Systems.ipynb) Exercises to probe the concept of periodic lattices based on FODO cells.
