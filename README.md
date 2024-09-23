@@ -15,7 +15,7 @@ Before to start, please make sure you have a working Python installation. You ca
     - [03_Periodic_Systems](./03_Periodic_Systems.ipynb) Exercises to probe the concept of periodic lattices based on FODO cells.
     - [04_Dispersion](./04_Dispersion.ipynb) Exercises to introduce the simplest energy effect: dispersion.
     - [05_4D_Systems](./05_4D_Systems.ipynb) Exercises meant to extend the exploration to 4D systems (i.e. H and V).
-- Additional `*Optional*.ipynb` notebooks are also provided for who is fast and/or wants to explore deeper either some physics concepts or the phython implementation of our libraries.
+- Additional `Optional*.ipynb` notebooks are also provided for who is fast and/or wants to explore deeper either some physics concepts or the phython implementation of our libraries.
 - The `tracking_library*.py` files contain simple functions to ease implementing simple tracking of particle in Python.
 
 > **NOTE:** the material in this repository is expected to evolve over time thanks to the feedback received from you! Please don't hesitate to transmit us your comments, suggestions, and complains!
