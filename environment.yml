@@ -1,0 +1,13 @@
+name: cas_2024_39
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib 
+  - seaborn 
+  - scipy 
+  - ipywidgets 
+  - jupyter 
+  - jupyterlab 
+  - pandas
