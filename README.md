@@ -8,7 +8,6 @@ The repository is based on the material prepared and updated during previous cou
 
 Before to start, please make sure you have a working Python installation. You can find setup instruction in a dedicated [repository](https://github.com/cerncas/hands-on-python/blob/main/Setup_Instructions.md). We kindly ask the student to read this document **before coming** to CAS to **prepare yourself** (and **your laptop**) for the course. 
 
-
 - The `*.ipynb` notebooks will be the "canvas" used during the course. They contain all exercise with "incomplete" parts that the student will have to fill in. Solutions to all the exercises are also provided in `solutions/*_solutions.ipynb`. These notebooks are provided for the student convenience, but they are clearly not expected to be used before and/or during the course itself...
     - [01_Single_Particle](./01_Single_Particle_Optional_Physics.ipynb) Exercises to probe single particle dynamics.
     - [02_Multi_Particles](./02_Multi_Particles.ipynb) Exercises to probe multi-particle dynamics.
@@ -19,6 +18,8 @@ Before to start, please make sure you have a working Python installation. You ca
 - The `tracking_library*.py` files contain simple functions to ease implementing simple tracking of particle in Python.
 
 > **NOTE:** the material in this repository is expected to evolve over time thanks to the feedback received from you! Please don't hesitate to transmit us your comments, suggestions, and complains!
+
+> **NOTE 2:** if you have troubles running those notebooks on your computer, you can also try to run them on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cerncas/hands-on-lattice-exercises/HEAD). **Mind that in this case you loose your work, if you don't save the data later on to your computer!**
 
 ### Known schools using this material
 
