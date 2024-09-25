@@ -66,15 +66,35 @@ def B(phi, L):
 ###################################################
 
 # The drift as a sequence of a single tuple
-D3 = lambda L: [{'matrix': np.array([[1, L, 0],[0, 1, 0], [0, 0, 1]]), 'length':L}]
+def D3(L):
+    '''Returns a list containing a single "drift" of length L - 3x3 version'''
+    # NB: we return a list with a dict
+    # the dict contains the matrix (the transformation)
+    # and the element length 
+    return [{'matrix': np.array([[1, L, 0],[0, 1, 0], [0, 0, 1]]), 'length':L}]
+
 
 # The quadrupole 
-Q3 = lambda f: [{'matrix': np.array([[1, 0, 0],[-1/f, 1,0],[0,0,1]]), 'length':0 }]
+def Q3(f):
+    '''Returns a list containing a quadrupole with focal length f - 3x3 version'''
+    # NB: we return a list with a dict
+    # the dict contains the matrix (the transformation)
+    # and the element length 
+    return [{'matrix': np.array([[1, 0, 0],[-1/f, 1,0],[0,0,1]]), 'length':0 }]
 
 # The sector bend
-B3 = lambda phi, l: [{'matrix': np.array([[np.cos(phi),l/phi*np.sin(phi), l/phi*(1-np.cos(phi))],\
-                              [-np.sin(phi)/l*phi, np.cos(phi), np.sin(phi)],
-                             [0,0,1]]), 'length': l}]
+def B3(phi, L):
+    '''Returns a list containing a thick bend with deflecting angle phi (in rad) and length L - 3x3 version'''
+    # NB: we return a list with a dict
+    # the dict contains the matrix (the transformation)
+    # and the element length 
+
+    # compute the 3x3 bend matrix:
+    bend_matrix = np.array([
+        [np.cos(phi),           L/phi*np.sin(phi),  L/phi*(1-np.cos(phi))],\
+        [-np.sin(phi)/L*phi,    np.cos(phi),        np.sin(phi)],
+        [0,                     0,                  1]])
+    return [{'matrix':bend_matrix, 'length':L}]
 
 
 ###################################################
@@ -112,7 +132,7 @@ def transportParticles(X_0, beamline, s_0=0):
        'coords': a Nx2xM numpy array with all M-particles coordinates (both x and x') at all N-elements of the beamline
     
     Disclaimer: if beamline is made of 5 elements, the output will have 5+1 "elements" as it will also 
-                return include the initial particle coordinates.
+                include the initial particle coordinates.
     '''
     coords = [X_0]
     s = [s_0]
@@ -139,7 +159,7 @@ def transportSigmas(sigma_0, beamline):
         'sigmas': a Nx2x2 numpy array with all sigma matrices at all N-elements of the beamline
     
     Disclaimer: if beamline is made of 5 elements, the output will have 5+1 "elements" as it will also 
-                return include the initial sigma matrix.
+                include the initial sigma matrix.
     '''
 
     sigmas = [sigma_0]
@@ -165,7 +185,7 @@ def twiss(beamline):
     '''
     Computes and returns the closed solution (if it exist!) for:
     Tune and Twiss parameters (beta, alpha, gamma) of the given beamline.
-    i.t. it returns (tune, beta, alpha, gamma)
+    i.e. it returns (tune, beta, alpha, gamma)
     '''
 
     # first, compute the equivalent "One-Turn-Map", and extract its matrix:
