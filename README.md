@@ -1,7 +1,7 @@
 # Hands-On Lattice and Longitudinal Calculations - Python version
-*D. Gamba, A. Latina, T. Prebibaj, A. Poyet, G. Russo, F. Soubelet, G. Sterbini, V. Ziemann*
+*D. Gamba, A. Latina, T. Prebibaj, A. Gilardi, A. Poyet, G. Russo, F. Soubelet, G. Sterbini, V. Ziemann*
 
-During the [CAS 2024 in Santa Susanna](https://indico.cern.ch/event/1356988/) (Spain), we will be using Python as scripting languages for the Hands-On Lattice Calculation course.
+During the [CAS 2025 in Santa Susanna](https://indico.cern.ch/event/1483926/) (Spain), we will be using Python as scripting languages for the Hands-On Lattice Calculation course.
 
 This repository contains all material used during the the course.
 The repository is based on the material prepared and updated during previous courses by *G. Sterbini, A. Latina, A. Poyet,* CERN and *V. Ziemann,* Uppsala University.
@@ -23,6 +23,7 @@ Before to start, please make sure you have a working Python installation. You ca
 
 ### Known schools using this material
 
+- [CAS 2025 in Santa Susanna](https://indico.cern.ch/event/1483926/)
 - [CAS 2024 in Santa Susanna](https://indico.cern.ch/event/1356988/)
 - [CAS 2023 in Santa Susanna](https://indico.cern.ch/event/1226773/)
 - [CAS 2022 in Kaunas](https://indico.cern.ch/event/1117526/)
