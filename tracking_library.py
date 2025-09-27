@@ -236,7 +236,7 @@ def twiss(beamline):
         raise ValueError('This beamline is not stable!')
     
     # all relevant Twiss parameters can be extrcted from the matrix:
-    mu = np.arccos(0.5 * (R[0, 0] + R[1, 1]))
+    mu = np.arccos(0.5 * (R[0, 0] + R[1, 1])) # np.arccoss returns angles only between 0 and pi
     if R[0, 1] < 0:
         mu = 2 * np.pi - mu
 
