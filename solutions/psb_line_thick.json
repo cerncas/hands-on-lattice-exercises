@@ -1,0 +1,9164 @@
+{
+ "elements": {
+  "psb1$start": {
+   "__class__": "Marker"
+  },
+  "p01ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_0": {
+   "__class__": "Drift",
+   "length": 0.1795000000000003
+  },
+  "bi1.bsw1l1.1_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.0715,
+   "a_b_squ": 1.1680673289999998e-05,
+   "max_y": 0.0313,
+   "_shift_x": -0.0057,
+   "_cos_rot_s": 1.0,
+   "a_squ": 0.005112249999999999,
+   "_sin_rot_s": 0.0,
+   "b_squ": 0.0022848400000000002
+  },
+  "bi1.bsw1l1.1": {
+   "__class__": "RBend",
+   "_integrator": 0,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "name_associated_aperture": "bi1.bsw1l1.1_aper",
+   "model": "full",
+   "k0": 0.0,
+   "h": 0.0,
+   "length": 0.313,
+   "k0_from_h": false,
+   "angle": 0.0,
+   "order": 5,
+   "length_straight": 0.313
+  },
+  "drift_1": {
+   "__class__": "Drift",
+   "length": 0.3769999999999998
+  },
+  "bi1.bsw1l1.2_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.11,
+   "a_b_squ": 3.9727808999999994e-05,
+   "max_y": 0.0313,
+   "_shift_x": -0.0442,
+   "_cos_rot_s": 1.0,
+   "a_squ": 0.0121,
+   "_sin_rot_s": 0.0,
+   "b_squ": 0.0032832899999999995
+  },
+  "bi1.bsw1l1.2": {
+   "__class__": "RBend",
+   "_integrator": 0,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "name_associated_aperture": "bi1.bsw1l1.2_aper",
+   "model": "full",
+   "k0": 0.0,
+   "h": 0.0,
+   "length": 0.325,
+   "k0_from_h": false,
+   "angle": 0.0,
+   "order": 5,
+   "length_straight": 0.325
+  },
+  "drift_2": {
+   "__class__": "Drift",
+   "length": 0.1331279999999997
+  },
+  "bi1.btv1l1": {
+   "__class__": "Drift"
+  },
+  "drift_3": {
+   "__class__": "Drift",
+   "length": 0.00637200000000071
+  },
+  "bi1.bcsf1l1": {
+   "__class__": "Drift"
+  },
+  "bi1.tstr1l1": {
+   "__class__": "Drift"
+  },
+  "drift_4": {
+   "__class__": "Drift",
+   "length": 0.063499999999999
+  },
+  "bi1.bsw1l1.3_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.11,
+   "a_b_squ": 3.9727808999999994e-05,
+   "max_y": 0.0313,
+   "_shift_x": -0.0442,
+   "_cos_rot_s": 1.0,
+   "a_squ": 0.0121,
+   "_sin_rot_s": 0.0,
+   "b_squ": 0.0032832899999999995
+  },
+  "bi1.bsw1l1.3": {
+   "__class__": "RBend",
+   "_integrator": 0,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "name_associated_aperture": "bi1.bsw1l1.3_aper",
+   "model": "full",
+   "k0": 0.0,
+   "h": 0.0,
+   "length": 0.325,
+   "k0_from_h": false,
+   "angle": 0.0,
+   "order": 5,
+   "length_straight": 0.325
+  },
+  "drift_5": {
+   "__class__": "Drift",
+   "length": 0.37099999999999955
+  },
+  "bi1.bsw1l1.4_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.11,
+   "a_b_squ": 3.9727808999999994e-05,
+   "max_y": 0.0313,
+   "_shift_x": -0.0442,
+   "_cos_rot_s": 1.0,
+   "a_squ": 0.0121,
+   "_sin_rot_s": 0.0,
+   "b_squ": 0.0032832899999999995
+  },
+  "bi1.bsw1l1.4": {
+   "__class__": "RBend",
+   "_integrator": 0,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "name_associated_aperture": "bi1.bsw1l1.4_aper",
+   "model": "full",
+   "k0": 0.0,
+   "h": 0.0,
+   "length": 0.325,
+   "k0_from_h": false,
+   "angle": 0.0,
+   "order": 5,
+   "length_straight": 0.325
+  },
+  "drift_6": {
+   "__class__": "Drift",
+   "length": 0.03750000000000098
+  },
+  "bi1.tdi1l1_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.0649,
+   "a_b_squ": 9.503347562499999e-06,
+   "max_y": 0.0313,
+   "_shift_x": 0.009,
+   "_cos_rot_s": 1.0,
+   "a_squ": 0.0042120099999999995,
+   "_sin_rot_s": 0.0,
+   "b_squ": 0.00225625
+  },
+  "bi1.tdi1l1": {
+   "__class__": "Drift",
+   "length": 0.07,
+   "name_associated_aperture": "bi1.tdi1l1_aper"
+  },
+  "drift_7": {
+   "__class__": "Drift",
+   "length": 0.12800099999999848
+  },
+  "br.bhz11_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz11": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz11_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_8": {
+   "__class__": "Drift",
+   "length": 3.000000000419334e-06
+  },
+  "br.spscrap11_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.064,
+   "a_b_squ": 3.5645439999999994e-06,
+   "max_y": 0.0295,
+   "a_squ": 0.004096,
+   "b_squ": 0.0008702499999999999
+  },
+  "br.spscrap11": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.spscrap11_aper"
+  },
+  "drift_9": {
+   "__class__": "Drift",
+   "length": 0.24311900000000009
+  },
+  "br1.vvs1l2": {
+   "__class__": "Marker"
+  },
+  "drift_10": {
+   "__class__": "Drift",
+   "length": 0.12319299999999878
+  },
+  "br.qfo11_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo11": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo11_aper",
+   "order": 5
+  },
+  "drift_11": {
+   "__class__": "Drift",
+   "length": 0.32621500000000125
+  },
+  "br1.bpm1l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm1l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm1l3_aper"
+  },
+  "br1.onoh0.1l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "br1.qskh0.1l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ]
+  },
+  "br1.xnoh0.1l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.1l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.1l3_aper"
+  },
+  "drift_12": {
+   "__class__": "Drift",
+   "length": 0.3275300000000012
+  },
+  "br.qde1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde1": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde1_aper",
+   "order": 5
+  },
+  "drift_13": {
+   "__class__": "Drift",
+   "length": 0.14252999999999982
+  },
+  "bi1.ksw1l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "drift_bi1.ksw1l4..1": {
+   "__class__": "Drift",
+   "length": 0.185,
+   "name_associated_aperture": "bi1.ksw1l4_aper"
+  },
+  "bi1.ksw1l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.37
+  },
+  "drift_bi1.ksw1l4..2": {
+   "__class__": "Drift",
+   "length": 0.185
+  },
+  "drift_14": {
+   "__class__": "Drift",
+   "length": 0.14221499999999931
+  },
+  "br.qfo12_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo12": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo12_aper",
+   "order": 5
+  },
+  "drift_15": {
+   "__class__": "Drift",
+   "length": 0.16526999999999958
+  },
+  "br1.bpp1l5": {
+   "__class__": "Drift"
+  },
+  "drift_16": {
+   "__class__": "Drift",
+   "length": 0.20194699999999965
+  },
+  "br.stscrap12_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap12": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap12_aper"
+  },
+  "drift_17": {
+   "__class__": "Drift",
+   "length": 4.999999999810711e-06
+  },
+  "br.bhz12_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz12": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz12_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p01ring1$end": {
+   "__class__": "Marker"
+  },
+  "p02ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_18": {
+   "__class__": "Drift",
+   "length": 0.9179999999999993
+  },
+  "br1.bws.2l1.v_rot_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.7628164062499995e-05,
+   "b_squ": 0.00525625,
+   "a_squ": 0.00525625,
+   "a": 0.0725,
+   "b": 0.0725
+  },
+  "br1.bws.2l1.v_rot": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bws.2l1.v_rot_aper"
+  },
+  "drift_19": {
+   "__class__": "Drift",
+   "length": 0.09800000000000253
+  },
+  "br1.bws.2l1.h_rot_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.7628164062499995e-05,
+   "b_squ": 0.00525625,
+   "a_squ": 0.00525625,
+   "a": 0.0725,
+   "b": 0.0725
+  },
+  "br1.bws.2l1.h_rot": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bws.2l1.h_rot_aper"
+  },
+  "drift_20": {
+   "__class__": "Drift",
+   "length": 0.5359999999999996
+  },
+  "bi1.ksw2l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "drift_bi1.ksw2l1..1": {
+   "__class__": "Drift",
+   "length": 0.185,
+   "name_associated_aperture": "bi1.ksw2l1_aper"
+  },
+  "bi1.ksw2l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.37
+  },
+  "drift_bi1.ksw2l1..2": {
+   "__class__": "Drift",
+   "length": 0.185
+  },
+  "drift_21": {
+   "__class__": "Drift",
+   "length": 0.7320009999999968
+  },
+  "br.bhz21_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz21": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz21_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_22": {
+   "__class__": "Drift",
+   "length": 2.500000002569891e-06
+  },
+  "br.stscrap21_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap21": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap21_aper"
+  },
+  "drift_23": {
+   "__class__": "Drift",
+   "length": 0.36631250000000115
+  },
+  "br.qfo21_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo21": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo21_aper",
+   "order": 5
+  },
+  "drift_24": {
+   "__class__": "Drift",
+   "length": 0.3262199999999975
+  },
+  "br1.bpm2l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm2l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm2l3_aper"
+  },
+  "br1.onoh0.2l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "br1.qsk2l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ]
+  },
+  "br1.xnoh0.2l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.2l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.2l3_aper"
+  },
+  "drift_25": {
+   "__class__": "Drift",
+   "length": 0.3275250000000014
+  },
+  "br.qde2_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde2": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde2_aper",
+   "order": 5
+  },
+  "drift_26": {
+   "__class__": "Drift",
+   "length": 0.32753499999999747
+  },
+  "br1.dhz2l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ]
+  },
+  "br1.dvt2l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dvt2l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt2l4_aper"
+  },
+  "br1.osk2l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "br1.xsk2l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "drift_27": {
+   "__class__": "Drift",
+   "length": 0.3272100000000009
+  },
+  "br.qfo22_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo22": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo22_aper",
+   "order": 5
+  },
+  "drift_28": {
+   "__class__": "Drift",
+   "length": 0.3672169999999966
+  },
+  "br.stscrap22_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap22": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap22_aper"
+  },
+  "drift_29": {
+   "__class__": "Drift",
+   "length": 4.9999999980343546e-06
+  },
+  "br.bhz22_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz22": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz22_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p02ring1$end": {
+   "__class__": "Marker"
+  },
+  "p03ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_30": {
+   "__class__": "Drift",
+   "length": 0.5240000000000009
+  },
+  "br1.des3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.7628164062499995e-05,
+   "b_squ": 0.00525625,
+   "a_squ": 0.00525625,
+   "a": 0.0725,
+   "b": 0.0725
+  },
+  "drift_br1.des3l1..1": {
+   "__class__": "Drift",
+   "length": 0.2825,
+   "name_associated_aperture": "br1.des3l1_aper"
+  },
+  "br1.des3l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.565
+  },
+  "drift_br1.des3l1..2": {
+   "__class__": "Drift",
+   "length": 0.2825
+  },
+  "drift_31": {
+   "__class__": "Drift",
+   "length": 0.37400000000000233
+  },
+  "br1.ono3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.ono3l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono3l1_aper"
+  },
+  "br1.qno3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.qno3l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qno3l1_aper"
+  },
+  "br1.uqd3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.uqd3l1": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.uqd3l1_aper"
+  },
+  "br1.xno3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.xno3l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno3l1_aper"
+  },
+  "drift_32": {
+   "__class__": "Drift",
+   "length": 0.5799999999999983
+  },
+  "br1.bpmt3l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.bpmt3l1": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpmt3l1_aper"
+  },
+  "drift_33": {
+   "__class__": "Drift",
+   "length": 0.6110009999999981
+  },
+  "br.bhz31_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz31": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz31_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_34": {
+   "__class__": "Drift",
+   "length": 2.9999999995311555e-06
+  },
+  "br.stscrap31_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap31": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap31_aper"
+  },
+  "drift_35": {
+   "__class__": "Drift",
+   "length": 0.36631200000000064
+  },
+  "br.qfo31_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo31": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo31_aper",
+   "order": 5
+  },
+  "drift_36": {
+   "__class__": "Drift",
+   "length": 0.3262249999999973
+  },
+  "br1.bpm3l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm3l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm3l3_aper"
+  },
+  "br1.onoh0.3l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.3l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.3l3_aper"
+  },
+  "br1.qskh0.3l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.3l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.3l3_aper"
+  },
+  "br1.xnoh0.3l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.3l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.3l3_aper"
+  },
+  "drift_37": {
+   "__class__": "Drift",
+   "length": 0.3275199999999998
+  },
+  "br.qde3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde3": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde3_aper",
+   "order": 5
+  },
+  "drift_38": {
+   "__class__": "Drift",
+   "length": 0.32753999999999905
+  },
+  "br1.dhz3l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dhz3l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz3l4_aper"
+  },
+  "br1.dvt3l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dvt3l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt3l4_aper"
+  },
+  "drift_39": {
+   "__class__": "Drift",
+   "length": 0.32720499999999575
+  },
+  "br.qfo32_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo32": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo32_aper",
+   "order": 5
+  },
+  "drift_40": {
+   "__class__": "Drift",
+   "length": 0.3672170000000001
+  },
+  "br.stscrap32_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap32": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap32_aper"
+  },
+  "drift_41": {
+   "__class__": "Drift",
+   "length": 4.9999999980343546e-06
+  },
+  "br.bhz32_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz32": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz32_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p03ring1$end": {
+   "__class__": "Marker"
+  },
+  "p04ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_42": {
+   "__class__": "Drift",
+   "length": 0.36999999999999744
+  },
+  "br1.ono4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.ono4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono4l1_aper"
+  },
+  "br1.osk4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk4l1_aper"
+  },
+  "br1.xno4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xno4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno4l1_aper"
+  },
+  "br1.xsk4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk4l1_aper"
+  },
+  "drift_43": {
+   "__class__": "Drift",
+   "length": 0.534000000000006
+  },
+  "be1.dhz4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "be1.dhz4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "be1.dhz4l1_aper"
+  },
+  "be1.dvt4l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "be1.dvt4l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "be1.dvt4l1_aper"
+  },
+  "drift_44": {
+   "__class__": "Drift",
+   "length": 1.2299999999999969
+  },
+  "br1.bwsh4l1": {
+   "__class__": "Drift"
+  },
+  "drift_45": {
+   "__class__": "Drift",
+   "length": 0.5200010000000042
+  },
+  "br.bhz41_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz41": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz41_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_46": {
+   "__class__": "Drift",
+   "length": 2.500000000793534e-06
+  },
+  "br.stscrap41_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap41": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap41_aper"
+  },
+  "drift_47": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo41_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo41": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo41_aper",
+   "order": 5
+  },
+  "drift_48": {
+   "__class__": "Drift",
+   "length": 0.32623000000000246
+  },
+  "br1.bpm4l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm4l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm4l3_aper"
+  },
+  "br1.onoh0.4l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.4l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.4l3_aper"
+  },
+  "br1.qno4l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qno4l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qno4l3_aper"
+  },
+  "br1.xnoh0.4l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.4l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.4l3_aper"
+  },
+  "drift_49": {
+   "__class__": "Drift",
+   "length": 0.3275149999999982
+  },
+  "br.qde4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde4": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde4_aper",
+   "order": 5
+  },
+  "drift_50": {
+   "__class__": "Drift",
+   "length": 0.32754500000000064
+  },
+  "br1.dhz4l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dhz4l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz4l4_aper"
+  },
+  "br1.dvt4l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ]
+  },
+  "drift_51": {
+   "__class__": "Drift",
+   "length": 0.3271999999999977
+  },
+  "br.qfo42_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo42": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo42_aper",
+   "order": 5
+  },
+  "drift_52": {
+   "__class__": "Drift",
+   "length": 0.16535800000000478
+  },
+  "br1.bptf4l5_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.7850625000000003e-05,
+   "b_squ": 0.0042250000000000005,
+   "a_squ": 0.0042250000000000005,
+   "a": 0.065,
+   "b": 0.065
+  },
+  "br1.bptf4l5": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bptf4l5_aper"
+  },
+  "drift_53": {
+   "__class__": "Drift",
+   "length": 0.2018589999999989
+  },
+  "br.stscrap42_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap42": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap42_aper"
+  },
+  "drift_54": {
+   "__class__": "Drift",
+   "length": 5.000000001587068e-06
+  },
+  "br.bhz42_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz42": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz42_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p04ring1$end": {
+   "__class__": "Marker"
+  },
+  "p05ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_55": {
+   "__class__": "Drift",
+   "length": 0.16284850000000262
+  },
+  "drift_br.c02..1": {
+   "__class__": "Drift",
+   "length": 5e-07
+  },
+  "br.c02": {
+   "__class__": "Cavity",
+   "frequency": 991965.9656194218
+  },
+  "drift_br.c02..2": {
+   "__class__": "Drift",
+   "length": 5e-07
+  },
+  "drift_56": {
+   "__class__": "Drift",
+   "length": 0.08841149999999942
+  },
+  "drift_br1.acwf5l1.1..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf5l1.1": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf5l1.1..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_57": {
+   "__class__": "Drift",
+   "length": 0.1115000000000066
+  },
+  "drift_br1.acwf5l1.2..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf5l1.2": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf5l1.2..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_58": {
+   "__class__": "Drift",
+   "length": 0.40523999999999916
+  },
+  "br.bhz51_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz51": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz51_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_59": {
+   "__class__": "Drift",
+   "length": 2.5000000078989615e-06
+  },
+  "br.stscrap51_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap51": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap51_aper"
+  },
+  "drift_60": {
+   "__class__": "Drift",
+   "length": 0.3663124999999994
+  },
+  "br.qfo51_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo51": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo51_aper",
+   "order": 5
+  },
+  "drift_61": {
+   "__class__": "Drift",
+   "length": 0.3262240000000034
+  },
+  "br1.bpm5l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm5l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm5l3_aper"
+  },
+  "br1.onoh0.5l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.5l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.5l3_aper"
+  },
+  "br1.qskh0.5l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.5l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.5l3_aper"
+  },
+  "br1.xnoh0.5l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.5l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.5l3_aper"
+  },
+  "drift_62": {
+   "__class__": "Drift",
+   "length": 0.3275209999999973
+  },
+  "br.qde5_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde5": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde5_aper",
+   "order": 5
+  },
+  "drift_63": {
+   "__class__": "Drift",
+   "length": 0.16653900000000021
+  },
+  "br1.dhz5l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dhz5l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz5l4_aper"
+  },
+  "br1.dvt5l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dvt5l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt5l4_aper"
+  },
+  "drift_64": {
+   "__class__": "Drift",
+   "length": 0.48820599999999814
+  },
+  "br.qfo52_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo52": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo52_aper",
+   "order": 5
+  },
+  "drift_65": {
+   "__class__": "Drift",
+   "length": 0.3672170000000037
+  },
+  "br.stscrap52_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap52": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap52_aper"
+  },
+  "drift_66": {
+   "__class__": "Drift",
+   "length": 5.000000001587068e-06
+  },
+  "br.bhz52_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz52": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz52_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p05ring1$end": {
+   "__class__": "Marker"
+  },
+  "p06ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_67": {
+   "__class__": "Drift",
+   "length": 0.36999999999999744
+  },
+  "br1.ono6l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.ono6l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono6l1_aper"
+  },
+  "br1.osk6l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk6l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk6l1_aper"
+  },
+  "br1.xno6l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xno6l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno6l1_aper"
+  },
+  "br1.xsk6l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk6l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk6l1_aper"
+  },
+  "drift_68": {
+   "__class__": "Drift",
+   "length": 2.2840010000000035
+  },
+  "br.bhz61_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz61": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz61_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_69": {
+   "__class__": "Drift",
+   "length": 3.000000006636583e-06
+  },
+  "br.stscrap61_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap61": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap61_aper"
+  },
+  "drift_70": {
+   "__class__": "Drift",
+   "length": 0.36631200000000064
+  },
+  "br.qfo61_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo61": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo61_aper",
+   "order": 5
+  },
+  "drift_71": {
+   "__class__": "Drift",
+   "length": 0.3262289999999979
+  },
+  "br1.bpm6l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm6l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm6l3_aper"
+  },
+  "br1.onoh0.6l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.6l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.6l3_aper"
+  },
+  "br1.qsk6l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qsk6l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qsk6l3_aper"
+  },
+  "br1.xnoh0.6l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.6l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.6l3_aper"
+  },
+  "drift_72": {
+   "__class__": "Drift",
+   "length": 0.3275160000000028
+  },
+  "br.qde6_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde6": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde6_aper",
+   "order": 5
+  },
+  "drift_73": {
+   "__class__": "Drift",
+   "length": 0.32754399999999606
+  },
+  "br1.dhz6l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dhz6l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz6l4_aper"
+  },
+  "br1.dvt6l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dvt6l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt6l4_aper"
+  },
+  "br1.osk6l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "br1.xsk6l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "drift_74": {
+   "__class__": "Drift",
+   "length": 0.3272010000000023
+  },
+  "br.qfo62_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo62": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo62_aper",
+   "order": 5
+  },
+  "drift_75": {
+   "__class__": "Drift",
+   "length": 0.36721800000000826
+  },
+  "br.stscrap62_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap62": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap62_aper"
+  },
+  "drift_76": {
+   "__class__": "Drift",
+   "length": 3.999999997006398e-06
+  },
+  "br.bhz62_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz62": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz62_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p06ring1$end": {
+   "__class__": "Marker"
+  },
+  "p07ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_77": {
+   "__class__": "Drift",
+   "length": 0.2512610000000066
+  },
+  "drift_br1.acwf7l1.1..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf7l1.1": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf7l1.1..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_78": {
+   "__class__": "Drift",
+   "length": 0.11149999999999238
+  },
+  "drift_br1.acwf7l1.2..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf7l1.2": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf7l1.2..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_79": {
+   "__class__": "Drift",
+   "length": 0.40524000000001337
+  },
+  "br.bhz71_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz71": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz71_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_80": {
+   "__class__": "Drift",
+   "length": 2.999999992425728e-06
+  },
+  "br.stscrap71_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap71": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap71_aper"
+  },
+  "drift_81": {
+   "__class__": "Drift",
+   "length": 0.36631200000000774
+  },
+  "br.qfo71_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo71": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo71_aper",
+   "order": 5
+  },
+  "drift_82": {
+   "__class__": "Drift",
+   "length": 0.32623399999999947
+  },
+  "br1.bpm7l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm7l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm7l3_aper"
+  },
+  "br1.onoh0.7l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.7l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.7l3_aper"
+  },
+  "br1.qskh0.7l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.7l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.7l3_aper"
+  },
+  "br1.xnoh0.7l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.7l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.7l3_aper"
+  },
+  "drift_83": {
+   "__class__": "Drift",
+   "length": 0.3275110000000012
+  },
+  "br.qde7_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde7": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde7_aper",
+   "order": 5
+  },
+  "drift_84": {
+   "__class__": "Drift",
+   "length": 0.32754900000000475
+  },
+  "br1.dshah7l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dshah7l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dshah7l4_aper"
+  },
+  "br1.dshav7l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dshav7l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dshav7l4_aper"
+  },
+  "drift_85": {
+   "__class__": "Drift",
+   "length": 0.3271960000000007
+  },
+  "br.qfo72_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo72": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo72_aper",
+   "order": 5
+  },
+  "drift_86": {
+   "__class__": "Drift",
+   "length": 0.36721799999999405
+  },
+  "br.stscrap72_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap72": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap72_aper"
+  },
+  "drift_87": {
+   "__class__": "Drift",
+   "length": 4.0000000041118255e-06
+  },
+  "br.bhz72_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz72": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz72_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p07ring1$end": {
+   "__class__": "Marker"
+  },
+  "p08ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_88": {
+   "__class__": "Drift",
+   "length": 0.363749999999996
+  },
+  "br1.ono8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.ono8l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono8l1_aper"
+  },
+  "br1.qno8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.qno8l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qno8l1_aper"
+  },
+  "br1.xno8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.xno8l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno8l1_aper"
+  },
+  "drift_89": {
+   "__class__": "Drift",
+   "length": 0.5030000000000001
+  },
+  "br1.dhz8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dhz8l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz8l1_aper"
+  },
+  "br1.dvt8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dvt8l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt8l1_aper"
+  },
+  "drift_90": {
+   "__class__": "Drift",
+   "length": 0.3509999999999991
+  },
+  "br1.bctf8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.bctf8l1": {
+   "__class__": "Drift",
+   "length": 0.5293,
+   "name_associated_aperture": "br1.bctf8l1_aper"
+  },
+  "drift_91": {
+   "__class__": "Drift",
+   "length": 0.09572300000000666
+  },
+  "br1.bcw8l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.bcw8l1": {
+   "__class__": "Drift",
+   "length": 0.3405,
+   "name_associated_aperture": "br1.bcw8l1_aper"
+  },
+  "drift_92": {
+   "__class__": "Drift",
+   "length": 0.13545000000000584
+  },
+  "br1.vvs8l1": {
+   "__class__": "Marker"
+  },
+  "drift_93": {
+   "__class__": "Drift",
+   "length": 0.14699999999999136
+  },
+  "br1.bpp8l1": {
+   "__class__": "Drift"
+  },
+  "drift_94": {
+   "__class__": "Drift",
+   "length": 0.18827800000001105
+  },
+  "br.bhz81_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz81": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz81_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_95": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap81_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap81": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap81_aper"
+  },
+  "drift_96": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo81_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo81": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo81_aper",
+   "order": 5
+  },
+  "drift_97": {
+   "__class__": "Drift",
+   "length": 0.32623900000000106
+  },
+  "br1.bpm8l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm8l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm8l3_aper"
+  },
+  "br1.onoh0.8l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.8l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.8l3_aper"
+  },
+  "br1.qno8l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qno8l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qno8l3_aper"
+  },
+  "br1.xnoh0.8l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.8l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.8l3_aper"
+  },
+  "drift_98": {
+   "__class__": "Drift",
+   "length": 0.32750599999999963
+  },
+  "br.qde8_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde8": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde8_aper",
+   "order": 5
+  },
+  "drift_99": {
+   "__class__": "Drift",
+   "length": 0.29702999999999236
+  },
+  "br1.tsaa8l4_aper": {
+   "__class__": "LimitRect",
+   "max_y": 0.033,
+   "min_x": -0.041,
+   "min_y": -0.033,
+   "max_x": 0.041
+  },
+  "br1.tsaa8l4": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.tsaa8l4_aper"
+  },
+  "drift_100": {
+   "__class__": "Drift",
+   "length": 0.17200000000001125
+  },
+  "br1.tsab8l4_aper": {
+   "__class__": "LimitRect",
+   "max_y": 0.037,
+   "min_x": -0.048,
+   "min_y": -0.037,
+   "max_x": 0.048
+  },
+  "br1.tsab8l4": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.tsab8l4_aper"
+  },
+  "drift_101": {
+   "__class__": "Drift",
+   "length": 0.18571500000000185
+  },
+  "br.qfo82_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo82": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo82_aper",
+   "order": 5
+  },
+  "drift_102": {
+   "__class__": "Drift",
+   "length": 0.36721799999999405
+  },
+  "br.stscrap82_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap82": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap82_aper"
+  },
+  "drift_103": {
+   "__class__": "Drift",
+   "length": 4.0000000041118255e-06
+  },
+  "br.bhz82_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz82": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz82_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p08ring1$end": {
+   "__class__": "Marker"
+  },
+  "p09ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_104": {
+   "__class__": "Drift",
+   "length": 0.38400000000000034
+  },
+  "br1.dhz9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dhz9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz9l1_aper"
+  },
+  "br1.dvt9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dvt9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt9l1_aper"
+  },
+  "drift_105": {
+   "__class__": "Drift",
+   "length": 0.4848999999999961
+  },
+  "br1.bctdc9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.7628164062499995e-05,
+   "b_squ": 0.00525625,
+   "a_squ": 0.00525625,
+   "a": 0.0725,
+   "b": 0.0725
+  },
+  "br1.bctdc9l1": {
+   "__class__": "Drift",
+   "length": 0.32,
+   "name_associated_aperture": "br1.bctdc9l1_aper"
+  },
+  "drift_106": {
+   "__class__": "Drift",
+   "length": 0.9051000000000045
+  },
+  "br1.ono9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.ono9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono9l1_aper"
+  },
+  "br1.osk9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk9l1_aper"
+  },
+  "br1.xno9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xno9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno9l1_aper"
+  },
+  "br1.xsk9l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk9l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk9l1_aper"
+  },
+  "drift_107": {
+   "__class__": "Drift",
+   "length": 0.560001000000014
+  },
+  "br.bhz91_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz91": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz91_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_108": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap91_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap91": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap91_aper"
+  },
+  "drift_109": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo91_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo91": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo91_aper",
+   "order": 5
+  },
+  "drift_110": {
+   "__class__": "Drift",
+   "length": 0.32624400000000264
+  },
+  "br1.bpm9l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm9l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm9l3_aper"
+  },
+  "br1.onoh0.9l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.9l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.9l3_aper"
+  },
+  "br1.qskh0.9l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.9l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.9l3_aper"
+  },
+  "br1.xnoh0.9l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.9l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.9l3_aper"
+  },
+  "drift_111": {
+   "__class__": "Drift",
+   "length": 0.32750099999999804
+  },
+  "br.qde9_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde9": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde9_aper",
+   "order": 5
+  },
+  "drift_112": {
+   "__class__": "Drift",
+   "length": 0.3275589999999937
+  },
+  "br1.dshah9l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dshah9l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dshah9l4_aper"
+  },
+  "br1.dshav9l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dshav9l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dshav9l4_aper"
+  },
+  "drift_113": {
+   "__class__": "Drift",
+   "length": 0.32718600000001175
+  },
+  "br.qfo92_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo92": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo92_aper",
+   "order": 5
+  },
+  "drift_114": {
+   "__class__": "Drift",
+   "length": 0.3672169999999966
+  },
+  "br.stscrap92_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap92": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap92_aper"
+  },
+  "drift_115": {
+   "__class__": "Drift",
+   "length": 5.000000001587068e-06
+  },
+  "br.bhz92_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz92": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz92_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p09ring1$end": {
+   "__class__": "Marker"
+  },
+  "p10ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_116": {
+   "__class__": "Drift",
+   "length": 2.654001000000008
+  },
+  "br.bhz101_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz101": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz101_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_117": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap101_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap101": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap101_aper"
+  },
+  "drift_118": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo101_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo101": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo101_aper",
+   "order": 5
+  },
+  "drift_119": {
+   "__class__": "Drift",
+   "length": 0.3262380000000036
+  },
+  "br1.bpm10l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm10l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm10l3_aper"
+  },
+  "br1.onoh0.10l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.10l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.10l3_aper"
+  },
+  "br1.qsk10l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qsk10l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    -0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qsk10l3_aper"
+  },
+  "br1.xnoh0.10l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.10l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.10l3_aper"
+  },
+  "drift_120": {
+   "__class__": "Drift",
+   "length": 0.3275069999999971
+  },
+  "br.qde10_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde10": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde10_aper",
+   "order": 5
+  },
+  "drift_121": {
+   "__class__": "Drift",
+   "length": 0.32755299999999465
+  },
+  "br1.dhz10l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ]
+  },
+  "br1.dvt10l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dvt10l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt10l4_aper"
+  },
+  "drift_122": {
+   "__class__": "Drift",
+   "length": 0.3271920000000108
+  },
+  "br.qfo102_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo102": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo102_aper",
+   "order": 5
+  },
+  "drift_123": {
+   "__class__": "Drift",
+   "length": 0.36721799999999405
+  },
+  "br.stscrap102_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap102": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap102_aper"
+  },
+  "drift_124": {
+   "__class__": "Drift",
+   "length": 4.0000000041118255e-06
+  },
+  "br.bhz102_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz102": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz102_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p10ring1$end": {
+   "__class__": "Marker"
+  },
+  "p11ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_125": {
+   "__class__": "Drift",
+   "length": 0.2960000000000065
+  },
+  "be1.dhz11l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "be1.dhz11l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "be1.dhz11l1_aper"
+  },
+  "be1.dvt11l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "be1.dvt11l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "be1.dvt11l1_aper"
+  },
+  "drift_126": {
+   "__class__": "Drift",
+   "length": 1.1669999999999874
+  },
+  "br1.ono11l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.ono11l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.ono11l1_aper"
+  },
+  "br1.qno11l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.qno11l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.qno11l1_aper"
+  },
+  "br1.xno11l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.xno11l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.xno11l1_aper"
+  },
+  "drift_127": {
+   "__class__": "Drift",
+   "length": 0.7006769999999989
+  },
+  "br1.bwsv11l1": {
+   "__class__": "Drift"
+  },
+  "drift_128": {
+   "__class__": "Drift",
+   "length": 0.4903240000000153
+  },
+  "br.bhz111_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz111": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz111_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_129": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap111_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap111": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap111_aper"
+  },
+  "drift_130": {
+   "__class__": "Drift",
+   "length": 0.032000500000009424
+  },
+  "br1.bpp11l2": {
+   "__class__": "Drift"
+  },
+  "drift_131": {
+   "__class__": "Drift",
+   "length": 0.33431199999999706
+  },
+  "br.qfo111_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo111": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo111_aper",
+   "order": 5
+  },
+  "drift_132": {
+   "__class__": "Drift",
+   "length": 0.32624300000000517
+  },
+  "br1.bpm11l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm11l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm11l3_aper"
+  },
+  "br1.onoh0.11l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.11l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.11l3_aper"
+  },
+  "br1.qskh0.11l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.11l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.11l3_aper"
+  },
+  "br1.xnoh0.11l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.11l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.11l3_aper"
+  },
+  "drift_133": {
+   "__class__": "Drift",
+   "length": 0.3275019999999955
+  },
+  "br.qde11_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde11": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde11_aper",
+   "order": 5
+  },
+  "drift_134": {
+   "__class__": "Drift",
+   "length": 0.32755799999999624
+  },
+  "br1.dhz11l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dhz11l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz11l4_aper"
+  },
+  "br1.dvt11l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ]
+  },
+  "br1.osk11l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk11l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk11l4_aper"
+  },
+  "br1.xsk11l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk11l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk11l4_aper"
+  },
+  "drift_135": {
+   "__class__": "Drift",
+   "length": 0.3271870000000092
+  },
+  "br.qfo112_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo112": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo112_aper",
+   "order": 5
+  },
+  "drift_136": {
+   "__class__": "Drift",
+   "length": 0.36721799999999405
+  },
+  "br.stscrap112_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap112": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap112_aper"
+  },
+  "drift_137": {
+   "__class__": "Drift",
+   "length": 4.0000000041118255e-06
+  },
+  "br.bhz112_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz112": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz112_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p11ring1$end": {
+   "__class__": "Marker"
+  },
+  "p12ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_138": {
+   "__class__": "Drift",
+   "length": 0.2990000000000066
+  },
+  "br1.kqm12l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "drift_br1.kqm12l1..1": {
+   "__class__": "Drift",
+   "length": 0.615,
+   "name_associated_aperture": "br1.kqm12l1_aper"
+  },
+  "br1.kqm12l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "length": 1.23
+  },
+  "drift_br1.kqm12l1..2": {
+   "__class__": "Drift",
+   "length": 0.615
+  },
+  "drift_139": {
+   "__class__": "Drift",
+   "length": 0.5649999999999977
+  },
+  "br1.ono12l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.ono12l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.ono12l1_aper"
+  },
+  "br1.osk12l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk12l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk12l1_aper"
+  },
+  "br1.xno12l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xno12l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xno12l1_aper"
+  },
+  "br1.xsk12l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk12l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk12l1_aper"
+  },
+  "drift_140": {
+   "__class__": "Drift",
+   "length": 0.560001000000014
+  },
+  "br.bhz121_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz121": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz121_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_141": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap121_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap121": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap121_aper"
+  },
+  "drift_142": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo121_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo121": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo121_aper",
+   "order": 5
+  },
+  "drift_143": {
+   "__class__": "Drift",
+   "length": 0.32624800000000675
+  },
+  "br1.bpm12l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm12l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm12l3_aper"
+  },
+  "br1.onoh0.12l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.12l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.12l3_aper"
+  },
+  "br1.qno12l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qno12l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.qno12l3_aper"
+  },
+  "br1.xnoh0.12l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.12l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.12l3_aper"
+  },
+  "drift_144": {
+   "__class__": "Drift",
+   "length": 0.32749699999999393
+  },
+  "br.qde12_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde12": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde12_aper",
+   "order": 5
+  },
+  "drift_145": {
+   "__class__": "Drift",
+   "length": 0.32756299999999783
+  },
+  "br1.dhz12l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dhz12l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz12l4_aper"
+  },
+  "br1.dvt12l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.dvt12l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt12l4_aper"
+  },
+  "br1.osk12l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.osk12l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.osk12l4_aper"
+  },
+  "br1.xsk12l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.73076800625e-05,
+   "b_squ": 0.00416025,
+   "a_squ": 0.00416025,
+   "a": 0.0645,
+   "b": 0.0645
+  },
+  "br1.xsk12l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xsk12l4_aper"
+  },
+  "drift_146": {
+   "__class__": "Drift",
+   "length": 0.32718200000000763
+  },
+  "br.qfo122_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo122": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo122_aper",
+   "order": 5
+  },
+  "drift_147": {
+   "__class__": "Drift",
+   "length": 0.3672169999999966
+  },
+  "br.stscrap122_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap122": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap122_aper"
+  },
+  "drift_148": {
+   "__class__": "Drift",
+   "length": 5.000000001587068e-06
+  },
+  "br.bhz122_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz122": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz122_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p12ring1$end": {
+   "__class__": "Marker"
+  },
+  "p13ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_149": {
+   "__class__": "Drift",
+   "length": 0.2512609999999995
+  },
+  "drift_br1.acwf13l1.1..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf13l1.1": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf13l1.1..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_150": {
+   "__class__": "Drift",
+   "length": 0.11149999999997817
+  },
+  "drift_br1.acwf13l1.2..1": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "br1.acwf13l1.2": {
+   "__class__": "Cavity"
+  },
+  "drift_br1.acwf13l1.2..2": {
+   "__class__": "Drift",
+   "length": 0.4715
+  },
+  "drift_151": {
+   "__class__": "Drift",
+   "length": 0.40524000000000626
+  },
+  "br.bhz131_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz131": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz131_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_152": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap131_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap131": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap131_aper"
+  },
+  "drift_153": {
+   "__class__": "Drift",
+   "length": 0.3663125000000065
+  },
+  "br.qfo131_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo131": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo131_aper",
+   "order": 5
+  },
+  "drift_154": {
+   "__class__": "Drift",
+   "length": 0.32625300000000834
+  },
+  "br1.bpm13l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm13l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm13l3_aper"
+  },
+  "br1.onoh0.13l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.13l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.13l3_aper"
+  },
+  "br1.qskh0.13l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.13l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.13l3_aper"
+  },
+  "br1.xnoh0.13l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.13l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.13l3_aper"
+  },
+  "drift_155": {
+   "__class__": "Drift",
+   "length": 0.32749200000000656
+  },
+  "br.qde13_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde13": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde13_aper",
+   "order": 5
+  },
+  "drift_156": {
+   "__class__": "Drift",
+   "length": 0.3275679999999852
+  },
+  "br1.dhz13l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dhz13l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz13l4_aper"
+  },
+  "br1.dvt13l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "br1.dvt13l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt13l4_aper"
+  },
+  "drift_157": {
+   "__class__": "Drift",
+   "length": 0.32717699999999184
+  },
+  "br.qfo132_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo132": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo132_aper",
+   "order": 5
+  },
+  "drift_158": {
+   "__class__": "Drift",
+   "length": 0.367217000000025
+  },
+  "br.stscrap132_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap132": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap132_aper"
+  },
+  "drift_159": {
+   "__class__": "Drift",
+   "length": 5.000000001587068e-06
+  },
+  "br.bhz132_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz132": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz132_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p13ring1$end": {
+   "__class__": "Marker"
+  },
+  "p14ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_160": {
+   "__class__": "Drift",
+   "length": 0.3065899999999999
+  },
+  "br1.dhz14l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dhz14l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz14l1_aper"
+  },
+  "br1.dvt14l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dvt14l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt14l1_aper"
+  },
+  "drift_161": {
+   "__class__": "Drift",
+   "length": 0.2171055000000024
+  },
+  "be1.kfa14l1_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.115,
+   "a_b_squ": 0.0002896804,
+   "max_y": 0.074,
+   "a_squ": 0.013225,
+   "b_squ": 0.021903999999999996
+  },
+  "drift_be1.kfa14l1..1": {
+   "__class__": "Drift",
+   "length": 1.0028945,
+   "name_associated_aperture": "be1.kfa14l1_aper"
+  },
+  "be1.kfa14l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 2.005789
+  },
+  "drift_be1.kfa14l1..2": {
+   "__class__": "Drift",
+   "length": 1.0028945
+  },
+  "drift_162": {
+   "__class__": "Drift",
+   "length": 0.12451649999999859
+  },
+  "br.bhz141_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz141": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz141_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_163": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.stscrap141_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap141": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap141_aper"
+  },
+  "drift_164": {
+   "__class__": "Drift",
+   "length": 0.10080049999999119
+  },
+  "br1.vvs14l2": {
+   "__class__": "Marker"
+  },
+  "drift_165": {
+   "__class__": "Drift",
+   "length": 0.26551199999997266
+  },
+  "br.qfo141_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo141": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo141_aper",
+   "order": 5
+  },
+  "drift_166": {
+   "__class__": "Drift",
+   "length": 0.32625699999999824
+  },
+  "br1.bpm14l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm14l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm14l3_aper"
+  },
+  "br1.onoh0.14l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.14l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.14l3_aper"
+  },
+  "br1.qsk14l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qsk14l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    -0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qsk14l3_aper"
+  },
+  "br1.xnoh0.14l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.14l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.14l3_aper"
+  },
+  "drift_167": {
+   "__class__": "Drift",
+   "length": 0.32748800000001665
+  },
+  "br.qde14_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde14": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde14_aper",
+   "order": 5
+  },
+  "drift_168": {
+   "__class__": "Drift",
+   "length": 0.11947299999999927
+  },
+  "br1.bpp14l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.7628164062499995e-05,
+   "b_squ": 0.00525625,
+   "a_squ": 0.00525625,
+   "a": 0.0725,
+   "b": 0.0725
+  },
+  "br1.bpp14l4": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpp14l4_aper"
+  },
+  "drift_169": {
+   "__class__": "Drift",
+   "length": 0.03599999999997294
+  },
+  "be1.bsw14l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "drift_be1.bsw14l4..1": {
+   "__class__": "Drift",
+   "length": 0.235,
+   "name_associated_aperture": "be1.bsw14l4_aper"
+  },
+  "be1.bsw14l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.47
+  },
+  "drift_be1.bsw14l4..2": {
+   "__class__": "Drift",
+   "length": 0.235
+  },
+  "drift_170": {
+   "__class__": "Drift",
+   "length": 0.029271999999963327
+  },
+  "br.qfo142_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo142": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo142_aper",
+   "order": 5
+  },
+  "drift_171": {
+   "__class__": "Drift",
+   "length": 0.3672170000000108
+  },
+  "br.spscrap142_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.073,
+   "a_b_squ": 4.6375622499999995e-06,
+   "max_y": 0.0295,
+   "a_squ": 0.0053289999999999995,
+   "b_squ": 0.0008702499999999999
+  },
+  "br.spscrap142": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.spscrap142_aper"
+  },
+  "drift_172": {
+   "__class__": "Drift",
+   "length": 4.9999999873762135e-06
+  },
+  "br.bhz142_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz142": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz142_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p14ring1$end": {
+   "__class__": "Marker"
+  },
+  "p15ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_173": {
+   "__class__": "Drift",
+   "length": 0.22517300000001228
+  },
+  "be1.btv10": {
+   "__class__": "Drift"
+  },
+  "drift_174": {
+   "__class__": "Drift",
+   "length": 0.04540000000000077
+  },
+  "br1.btv15l1": {
+   "__class__": "Drift"
+  },
+  "drift_175": {
+   "__class__": "Drift",
+   "length": 0.28052900000000136
+  },
+  "drift_be1.smh15l1..1": {
+   "__class__": "Drift",
+   "length": 0.475
+  },
+  "be1.smh15l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.95
+  },
+  "drift_be1.smh15l1..2": {
+   "__class__": "Drift",
+   "length": 0.475
+  },
+  "drift_176": {
+   "__class__": "Drift",
+   "length": 0.3415499999999838
+  },
+  "br1.dhz15l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dhz15l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz15l1_aper"
+  },
+  "br1.dvt15l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.0759414062500005e-05,
+   "b_squ": 0.00455625,
+   "a_squ": 0.00455625,
+   "a": 0.0675,
+   "b": 0.0675
+  },
+  "br1.dvt15l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt15l1_aper"
+  },
+  "drift_177": {
+   "__class__": "Drift",
+   "length": 0.34300800000002596
+  },
+  "be1.bsw15l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "drift_be1.bsw15l1..1": {
+   "__class__": "Drift",
+   "length": 0.183,
+   "name_associated_aperture": "be1.bsw15l1_aper"
+  },
+  "be1.bsw15l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.366
+  },
+  "drift_be1.bsw15l1..2": {
+   "__class__": "Drift",
+   "length": 0.183
+  },
+  "drift_178": {
+   "__class__": "Drift",
+   "length": 0.10234099999999557
+  },
+  "br.bhz151_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz151": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz151_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_179": {
+   "__class__": "Drift",
+   "length": 2.4999999936881068e-06
+  },
+  "br.spscrap151_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.064,
+   "a_b_squ": 3.5645439999999994e-06,
+   "max_y": 0.0295,
+   "a_squ": 0.004096,
+   "b_squ": 0.0008702499999999999
+  },
+  "br.spscrap151": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.spscrap151_aper"
+  },
+  "drift_180": {
+   "__class__": "Drift",
+   "length": 0.36631249999996385
+  },
+  "br.qfo151_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo151": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo151_aper",
+   "order": 5
+  },
+  "drift_181": {
+   "__class__": "Drift",
+   "length": 0.32625200000001087
+  },
+  "br1.bpm15l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm15l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm15l3_aper"
+  },
+  "br1.onoh0.15l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.15l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.15l3_aper"
+  },
+  "br1.qskh0.15l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qskh0.15l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.qskh0.15l3_aper"
+  },
+  "br1.xnoh0.15l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.15l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.15l3_aper"
+  },
+  "drift_182": {
+   "__class__": "Drift",
+   "length": 0.32749300000000403
+  },
+  "br.qde15_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde15": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde15_aper",
+   "order": 5
+  },
+  "drift_183": {
+   "__class__": "Drift",
+   "length": 0.10256699999996499
+  },
+  "be1.bsw15l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.2117360999999999e-05,
+   "b_squ": 0.0034809999999999997,
+   "a_squ": 0.0034809999999999997,
+   "a": 0.059,
+   "b": 0.059
+  },
+  "drift_be1.bsw15l4..1": {
+   "__class__": "Drift",
+   "length": 0.235,
+   "name_associated_aperture": "be1.bsw15l4_aper"
+  },
+  "be1.bsw15l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.47
+  },
+  "drift_be1.bsw15l4..2": {
+   "__class__": "Drift",
+   "length": 0.235
+  },
+  "drift_184": {
+   "__class__": "Drift",
+   "length": 0.08217799999997055
+  },
+  "br.qfo152_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo152": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo152_aper",
+   "order": 5
+  },
+  "drift_185": {
+   "__class__": "Drift",
+   "length": 0.3672170000000108
+  },
+  "br.stscrap152_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap152": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap152_aper"
+  },
+  "drift_186": {
+   "__class__": "Drift",
+   "length": 4.9999999873762135e-06
+  },
+  "br.bhz152_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz152": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz152_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p15ring1$end": {
+   "__class__": "Marker"
+  },
+  "p16ring1$start": {
+   "__class__": "Marker"
+  },
+  "drift_187": {
+   "__class__": "Drift",
+   "length": 0.36299999999999955
+  },
+  "br1.ono16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.ono16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.ono16l1_aper"
+  },
+  "br1.qno16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.qno16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.qno16l1_aper"
+  },
+  "br1.xno16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.xno16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.xno16l1_aper"
+  },
+  "drift_188": {
+   "__class__": "Drift",
+   "length": 0.4124999999999943
+  },
+  "bi1.ksw16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "drift_bi1.ksw16l1..1": {
+   "__class__": "Drift",
+   "length": 0.185,
+   "name_associated_aperture": "bi1.ksw16l1_aper"
+  },
+  "bi1.ksw16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.37
+  },
+  "drift_bi1.ksw16l1..2": {
+   "__class__": "Drift",
+   "length": 0.185
+  },
+  "drift_189": {
+   "__class__": "Drift",
+   "length": 0.8505100000000141
+  },
+  "br1.dhz16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dhz16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "name_associated_aperture": "br1.dhz16l1_aper"
+  },
+  "br1.dvt16l1_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "br1.dvt16l1": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    0.0
+   ],
+   "name_associated_aperture": "br1.dvt16l1_aper"
+  },
+  "drift_190": {
+   "__class__": "Drift",
+   "length": 0.6579909999999813
+  },
+  "br.bhz161_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz161": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz161_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "drift_191": {
+   "__class__": "Drift",
+   "length": 2.999999992425728e-06
+  },
+  "br.stscrap161_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap161": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap161_aper"
+  },
+  "drift_192": {
+   "__class__": "Drift",
+   "length": 0.3663119999999651
+  },
+  "br.qfo161_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo161": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo161_aper",
+   "order": 5
+  },
+  "drift_193": {
+   "__class__": "Drift",
+   "length": 0.32625699999999824
+  },
+  "br1.bpm16l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.bpm16l3": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br1.bpm16l3_aper"
+  },
+  "br1.onoh0.16l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.onoh0.16l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.onoh0.16l3_aper"
+  },
+  "br1.qno16l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.qno16l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    -0.0
+   ],
+   "name_associated_aperture": "br1.qno16l3_aper"
+  },
+  "br1.xnoh0.16l3_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 2.4010000000000006e-05,
+   "b_squ": 0.004900000000000001,
+   "a_squ": 0.004900000000000001,
+   "a": 0.07,
+   "b": 0.07
+  },
+  "br1.xnoh0.16l3": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "knl": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "name_associated_aperture": "br1.xnoh0.16l3_aper"
+  },
+  "drift_194": {
+   "__class__": "Drift",
+   "length": 0.32748800000001665
+  },
+  "br.qde16_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qde16": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.87894,
+   "k1": -0.774105869745434,
+   "name_associated_aperture": "br.qde16_aper",
+   "order": 5
+  },
+  "drift_195": {
+   "__class__": "Drift",
+   "length": 0.14257199999997283
+  },
+  "bi1.ksw16l4_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.296e-05,
+   "b_squ": 0.0036,
+   "a_squ": 0.0036,
+   "a": 0.06,
+   "b": 0.06
+  },
+  "drift_bi1.ksw16l4..1": {
+   "__class__": "Drift",
+   "length": 0.185,
+   "name_associated_aperture": "bi1.ksw16l4_aper"
+  },
+  "bi1.ksw16l4": {
+   "__class__": "Multipole",
+   "ksl": [
+    0.0
+   ],
+   "knl": [
+    -0.0
+   ],
+   "length": 0.37
+  },
+  "drift_bi1.ksw16l4..2": {
+   "__class__": "Drift",
+   "length": 0.185
+  },
+  "drift_196": {
+   "__class__": "Drift",
+   "length": 0.14217299999998545
+  },
+  "br.qfo162_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 1.0556001000000001e-05,
+   "b_squ": 0.003249,
+   "a_squ": 0.003249,
+   "a": 0.057,
+   "b": 0.057
+  },
+  "br.qfo162": {
+   "__class__": "Quadrupole",
+   "_model": 0,
+   "_integrator": 0,
+   "length": 0.50357,
+   "k1": 0.7409699495378219,
+   "name_associated_aperture": "br.qfo162_aper",
+   "order": 5
+  },
+  "drift_197": {
+   "__class__": "Drift",
+   "length": 0.12331499999999096
+  },
+  "br1.vvs16l5": {
+   "__class__": "Marker"
+  },
+  "drift_198": {
+   "__class__": "Drift",
+   "length": 0.24390200000001983
+  },
+  "br.stscrap162_aper": {
+   "__class__": "LimitEllipse",
+   "a_b_squ": 3.2382002499999996e-06,
+   "b_squ": 0.0008702499999999999,
+   "a_squ": 0.003721,
+   "a": 0.061,
+   "b": 0.0295
+  },
+  "br.stscrap162": {
+   "__class__": "Drift",
+   "name_associated_aperture": "br.stscrap162_aper"
+  },
+  "drift_199": {
+   "__class__": "Drift",
+   "length": 4.9999999873762135e-06
+  },
+  "br.bhz162_aper": {
+   "__class__": "LimitRectEllipse",
+   "max_x": 0.06535,
+   "a_b_squ": 9.839514240000002e-06,
+   "max_y": 0.0309,
+   "a_squ": 0.0042706225000000006,
+   "b_squ": 0.002304
+  },
+  "br.bhz162": {
+   "__class__": "Bend",
+   "edge_entry_angle": -0.09817477042468103,
+   "_integrator": 0,
+   "edge_entry_hgap": 0.035,
+   "edge_exit_angle": -0.09817477042468103,
+   "_edge_exit_model": 1,
+   "_order": 5,
+   "edge_exit_fint": 0.5,
+   "edge_exit_hgap": 0.035,
+   "_edge_entry_model": 1,
+   "inv_factorial_order": 0.008333333333333333,
+   "edge_entry_fint": 0.5,
+   "name_associated_aperture": "br.bhz162_aper",
+   "model": "full",
+   "k0": -0.12137604398438401,
+   "h": -0.12137604398438401,
+   "length": 1.617696,
+   "k0_from_h": true,
+   "angle": -0.19634954084936207,
+   "order": 5
+  },
+  "p16ring1$end": {
+   "__class__": "Marker"
+  },
+  "psb1$end": {
+   "__class__": "Marker"
+  }
+ },
+ "element_names": [
+  "psb1$start",
+  "p01ring1$start",
+  "drift_0",
+  "bi1.bsw1l1.1_aper",
+  "bi1.bsw1l1.1",
+  "drift_1",
+  "bi1.bsw1l1.2_aper",
+  "bi1.bsw1l1.2",
+  "drift_2",
+  "bi1.btv1l1",
+  "drift_3",
+  "bi1.bcsf1l1",
+  "bi1.tstr1l1",
+  "drift_4",
+  "bi1.bsw1l1.3_aper",
+  "bi1.bsw1l1.3",
+  "drift_5",
+  "bi1.bsw1l1.4_aper",
+  "bi1.bsw1l1.4",
+  "drift_6",
+  "bi1.tdi1l1_aper",
+  "bi1.tdi1l1",
+  "drift_7",
+  "br.bhz11_aper",
+  "br.bhz11",
+  "drift_8",
+  "br.spscrap11_aper",
+  "br.spscrap11",
+  "drift_9",
+  "br1.vvs1l2",
+  "drift_10",
+  "br.qfo11_aper",
+  "br.qfo11",
+  "drift_11",
+  "br1.bpm1l3_aper",
+  "br1.bpm1l3",
+  "br1.onoh0.1l3",
+  "br1.qskh0.1l3",
+  "br1.xnoh0.1l3_aper",
+  "br1.xnoh0.1l3",
+  "drift_12",
+  "br.qde1_aper",
+  "br.qde1",
+  "drift_13",
+  "bi1.ksw1l4_aper",
+  "drift_bi1.ksw1l4..1",
+  "bi1.ksw1l4",
+  "drift_bi1.ksw1l4..2",
+  "drift_14",
+  "br.qfo12_aper",
+  "br.qfo12",
+  "drift_15",
+  "br1.bpp1l5",
+  "drift_16",
+  "br.stscrap12_aper",
+  "br.stscrap12",
+  "drift_17",
+  "br.bhz12_aper",
+  "br.bhz12",
+  "p01ring1$end",
+  "p02ring1$start",
+  "drift_18",
+  "br1.bws.2l1.v_rot_aper",
+  "br1.bws.2l1.v_rot",
+  "drift_19",
+  "br1.bws.2l1.h_rot_aper",
+  "br1.bws.2l1.h_rot",
+  "drift_20",
+  "bi1.ksw2l1_aper",
+  "drift_bi1.ksw2l1..1",
+  "bi1.ksw2l1",
+  "drift_bi1.ksw2l1..2",
+  "drift_21",
+  "br.bhz21_aper",
+  "br.bhz21",
+  "drift_22",
+  "br.stscrap21_aper",
+  "br.stscrap21",
+  "drift_23",
+  "br.qfo21_aper",
+  "br.qfo21",
+  "drift_24",
+  "br1.bpm2l3_aper",
+  "br1.bpm2l3",
+  "br1.onoh0.2l3",
+  "br1.qsk2l3",
+  "br1.xnoh0.2l3_aper",
+  "br1.xnoh0.2l3",
+  "drift_25",
+  "br.qde2_aper",
+  "br.qde2",
+  "drift_26",
+  "br1.dhz2l4",
+  "br1.dvt2l4_aper",
+  "br1.dvt2l4",
+  "br1.osk2l4",
+  "br1.xsk2l4",
+  "drift_27",
+  "br.qfo22_aper",
+  "br.qfo22",
+  "drift_28",
+  "br.stscrap22_aper",
+  "br.stscrap22",
+  "drift_29",
+  "br.bhz22_aper",
+  "br.bhz22",
+  "p02ring1$end",
+  "p03ring1$start",
+  "drift_30",
+  "br1.des3l1_aper",
+  "drift_br1.des3l1..1",
+  "br1.des3l1",
+  "drift_br1.des3l1..2",
+  "drift_31",
+  "br1.ono3l1_aper",
+  "br1.ono3l1",
+  "br1.qno3l1_aper",
+  "br1.qno3l1",
+  "br1.uqd3l1_aper",
+  "br1.uqd3l1",
+  "br1.xno3l1_aper",
+  "br1.xno3l1",
+  "drift_32",
+  "br1.bpmt3l1_aper",
+  "br1.bpmt3l1",
+  "drift_33",
+  "br.bhz31_aper",
+  "br.bhz31",
+  "drift_34",
+  "br.stscrap31_aper",
+  "br.stscrap31",
+  "drift_35",
+  "br.qfo31_aper",
+  "br.qfo31",
+  "drift_36",
+  "br1.bpm3l3_aper",
+  "br1.bpm3l3",
+  "br1.onoh0.3l3_aper",
+  "br1.onoh0.3l3",
+  "br1.qskh0.3l3_aper",
+  "br1.qskh0.3l3",
+  "br1.xnoh0.3l3_aper",
+  "br1.xnoh0.3l3",
+  "drift_37",
+  "br.qde3_aper",
+  "br.qde3",
+  "drift_38",
+  "br1.dhz3l4_aper",
+  "br1.dhz3l4",
+  "br1.dvt3l4_aper",
+  "br1.dvt3l4",
+  "drift_39",
+  "br.qfo32_aper",
+  "br.qfo32",
+  "drift_40",
+  "br.stscrap32_aper",
+  "br.stscrap32",
+  "drift_41",
+  "br.bhz32_aper",
+  "br.bhz32",
+  "p03ring1$end",
+  "p04ring1$start",
+  "drift_42",
+  "br1.ono4l1_aper",
+  "br1.ono4l1",
+  "br1.osk4l1_aper",
+  "br1.osk4l1",
+  "br1.xno4l1_aper",
+  "br1.xno4l1",
+  "br1.xsk4l1_aper",
+  "br1.xsk4l1",
+  "drift_43",
+  "be1.dhz4l1_aper",
+  "be1.dhz4l1",
+  "be1.dvt4l1_aper",
+  "be1.dvt4l1",
+  "drift_44",
+  "br1.bwsh4l1",
+  "drift_45",
+  "br.bhz41_aper",
+  "br.bhz41",
+  "drift_46",
+  "br.stscrap41_aper",
+  "br.stscrap41",
+  "drift_47",
+  "br.qfo41_aper",
+  "br.qfo41",
+  "drift_48",
+  "br1.bpm4l3_aper",
+  "br1.bpm4l3",
+  "br1.onoh0.4l3_aper",
+  "br1.onoh0.4l3",
+  "br1.qno4l3_aper",
+  "br1.qno4l3",
+  "br1.xnoh0.4l3_aper",
+  "br1.xnoh0.4l3",
+  "drift_49",
+  "br.qde4_aper",
+  "br.qde4",
+  "drift_50",
+  "br1.dhz4l4_aper",
+  "br1.dhz4l4",
+  "br1.dvt4l4",
+  "drift_51",
+  "br.qfo42_aper",
+  "br.qfo42",
+  "drift_52",
+  "br1.bptf4l5_aper",
+  "br1.bptf4l5",
+  "drift_53",
+  "br.stscrap42_aper",
+  "br.stscrap42",
+  "drift_54",
+  "br.bhz42_aper",
+  "br.bhz42",
+  "p04ring1$end",
+  "p05ring1$start",
+  "drift_55",
+  "drift_br.c02..1",
+  "br.c02",
+  "drift_br.c02..2",
+  "drift_56",
+  "drift_br1.acwf5l1.1..1",
+  "br1.acwf5l1.1",
+  "drift_br1.acwf5l1.1..2",
+  "drift_57",
+  "drift_br1.acwf5l1.2..1",
+  "br1.acwf5l1.2",
+  "drift_br1.acwf5l1.2..2",
+  "drift_58",
+  "br.bhz51_aper",
+  "br.bhz51",
+  "drift_59",
+  "br.stscrap51_aper",
+  "br.stscrap51",
+  "drift_60",
+  "br.qfo51_aper",
+  "br.qfo51",
+  "drift_61",
+  "br1.bpm5l3_aper",
+  "br1.bpm5l3",
+  "br1.onoh0.5l3_aper",
+  "br1.onoh0.5l3",
+  "br1.qskh0.5l3_aper",
+  "br1.qskh0.5l3",
+  "br1.xnoh0.5l3_aper",
+  "br1.xnoh0.5l3",
+  "drift_62",
+  "br.qde5_aper",
+  "br.qde5",
+  "drift_63",
+  "br1.dhz5l4_aper",
+  "br1.dhz5l4",
+  "br1.dvt5l4_aper",
+  "br1.dvt5l4",
+  "drift_64",
+  "br.qfo52_aper",
+  "br.qfo52",
+  "drift_65",
+  "br.stscrap52_aper",
+  "br.stscrap52",
+  "drift_66",
+  "br.bhz52_aper",
+  "br.bhz52",
+  "p05ring1$end",
+  "p06ring1$start",
+  "drift_67",
+  "br1.ono6l1_aper",
+  "br1.ono6l1",
+  "br1.osk6l1_aper",
+  "br1.osk6l1",
+  "br1.xno6l1_aper",
+  "br1.xno6l1",
+  "br1.xsk6l1_aper",
+  "br1.xsk6l1",
+  "drift_68",
+  "br.bhz61_aper",
+  "br.bhz61",
+  "drift_69",
+  "br.stscrap61_aper",
+  "br.stscrap61",
+  "drift_70",
+  "br.qfo61_aper",
+  "br.qfo61",
+  "drift_71",
+  "br1.bpm6l3_aper",
+  "br1.bpm6l3",
+  "br1.onoh0.6l3_aper",
+  "br1.onoh0.6l3",
+  "br1.qsk6l3_aper",
+  "br1.qsk6l3",
+  "br1.xnoh0.6l3_aper",
+  "br1.xnoh0.6l3",
+  "drift_72",
+  "br.qde6_aper",
+  "br.qde6",
+  "drift_73",
+  "br1.dhz6l4_aper",
+  "br1.dhz6l4",
+  "br1.dvt6l4_aper",
+  "br1.dvt6l4",
+  "br1.osk6l4",
+  "br1.xsk6l4",
+  "drift_74",
+  "br.qfo62_aper",
+  "br.qfo62",
+  "drift_75",
+  "br.stscrap62_aper",
+  "br.stscrap62",
+  "drift_76",
+  "br.bhz62_aper",
+  "br.bhz62",
+  "p06ring1$end",
+  "p07ring1$start",
+  "drift_77",
+  "drift_br1.acwf7l1.1..1",
+  "br1.acwf7l1.1",
+  "drift_br1.acwf7l1.1..2",
+  "drift_78",
+  "drift_br1.acwf7l1.2..1",
+  "br1.acwf7l1.2",
+  "drift_br1.acwf7l1.2..2",
+  "drift_79",
+  "br.bhz71_aper",
+  "br.bhz71",
+  "drift_80",
+  "br.stscrap71_aper",
+  "br.stscrap71",
+  "drift_81",
+  "br.qfo71_aper",
+  "br.qfo71",
+  "drift_82",
+  "br1.bpm7l3_aper",
+  "br1.bpm7l3",
+  "br1.onoh0.7l3_aper",
+  "br1.onoh0.7l3",
+  "br1.qskh0.7l3_aper",
+  "br1.qskh0.7l3",
+  "br1.xnoh0.7l3_aper",
+  "br1.xnoh0.7l3",
+  "drift_83",
+  "br.qde7_aper",
+  "br.qde7",
+  "drift_84",
+  "br1.dshah7l4_aper",
+  "br1.dshah7l4",
+  "br1.dshav7l4_aper",
+  "br1.dshav7l4",
+  "drift_85",
+  "br.qfo72_aper",
+  "br.qfo72",
+  "drift_86",
+  "br.stscrap72_aper",
+  "br.stscrap72",
+  "drift_87",
+  "br.bhz72_aper",
+  "br.bhz72",
+  "p07ring1$end",
+  "p08ring1$start",
+  "drift_88",
+  "br1.ono8l1_aper",
+  "br1.ono8l1",
+  "br1.qno8l1_aper",
+  "br1.qno8l1",
+  "br1.xno8l1_aper",
+  "br1.xno8l1",
+  "drift_89",
+  "br1.dhz8l1_aper",
+  "br1.dhz8l1",
+  "br1.dvt8l1_aper",
+  "br1.dvt8l1",
+  "drift_90",
+  "br1.bctf8l1_aper",
+  "br1.bctf8l1",
+  "drift_91",
+  "br1.bcw8l1_aper",
+  "br1.bcw8l1",
+  "drift_92",
+  "br1.vvs8l1",
+  "drift_93",
+  "br1.bpp8l1",
+  "drift_94",
+  "br.bhz81_aper",
+  "br.bhz81",
+  "drift_95",
+  "br.stscrap81_aper",
+  "br.stscrap81",
+  "drift_96",
+  "br.qfo81_aper",
+  "br.qfo81",
+  "drift_97",
+  "br1.bpm8l3_aper",
+  "br1.bpm8l3",
+  "br1.onoh0.8l3_aper",
+  "br1.onoh0.8l3",
+  "br1.qno8l3_aper",
+  "br1.qno8l3",
+  "br1.xnoh0.8l3_aper",
+  "br1.xnoh0.8l3",
+  "drift_98",
+  "br.qde8_aper",
+  "br.qde8",
+  "drift_99",
+  "br1.tsaa8l4_aper",
+  "br1.tsaa8l4",
+  "drift_100",
+  "br1.tsab8l4_aper",
+  "br1.tsab8l4",
+  "drift_101",
+  "br.qfo82_aper",
+  "br.qfo82",
+  "drift_102",
+  "br.stscrap82_aper",
+  "br.stscrap82",
+  "drift_103",
+  "br.bhz82_aper",
+  "br.bhz82",
+  "p08ring1$end",
+  "p09ring1$start",
+  "drift_104",
+  "br1.dhz9l1_aper",
+  "br1.dhz9l1",
+  "br1.dvt9l1_aper",
+  "br1.dvt9l1",
+  "drift_105",
+  "br1.bctdc9l1_aper",
+  "br1.bctdc9l1",
+  "drift_106",
+  "br1.ono9l1_aper",
+  "br1.ono9l1",
+  "br1.osk9l1_aper",
+  "br1.osk9l1",
+  "br1.xno9l1_aper",
+  "br1.xno9l1",
+  "br1.xsk9l1_aper",
+  "br1.xsk9l1",
+  "drift_107",
+  "br.bhz91_aper",
+  "br.bhz91",
+  "drift_108",
+  "br.stscrap91_aper",
+  "br.stscrap91",
+  "drift_109",
+  "br.qfo91_aper",
+  "br.qfo91",
+  "drift_110",
+  "br1.bpm9l3_aper",
+  "br1.bpm9l3",
+  "br1.onoh0.9l3_aper",
+  "br1.onoh0.9l3",
+  "br1.qskh0.9l3_aper",
+  "br1.qskh0.9l3",
+  "br1.xnoh0.9l3_aper",
+  "br1.xnoh0.9l3",
+  "drift_111",
+  "br.qde9_aper",
+  "br.qde9",
+  "drift_112",
+  "br1.dshah9l4_aper",
+  "br1.dshah9l4",
+  "br1.dshav9l4_aper",
+  "br1.dshav9l4",
+  "drift_113",
+  "br.qfo92_aper",
+  "br.qfo92",
+  "drift_114",
+  "br.stscrap92_aper",
+  "br.stscrap92",
+  "drift_115",
+  "br.bhz92_aper",
+  "br.bhz92",
+  "p09ring1$end",
+  "p10ring1$start",
+  "drift_116",
+  "br.bhz101_aper",
+  "br.bhz101",
+  "drift_117",
+  "br.stscrap101_aper",
+  "br.stscrap101",
+  "drift_118",
+  "br.qfo101_aper",
+  "br.qfo101",
+  "drift_119",
+  "br1.bpm10l3_aper",
+  "br1.bpm10l3",
+  "br1.onoh0.10l3_aper",
+  "br1.onoh0.10l3",
+  "br1.qsk10l3_aper",
+  "br1.qsk10l3",
+  "br1.xnoh0.10l3_aper",
+  "br1.xnoh0.10l3",
+  "drift_120",
+  "br.qde10_aper",
+  "br.qde10",
+  "drift_121",
+  "br1.dhz10l4",
+  "br1.dvt10l4_aper",
+  "br1.dvt10l4",
+  "drift_122",
+  "br.qfo102_aper",
+  "br.qfo102",
+  "drift_123",
+  "br.stscrap102_aper",
+  "br.stscrap102",
+  "drift_124",
+  "br.bhz102_aper",
+  "br.bhz102",
+  "p10ring1$end",
+  "p11ring1$start",
+  "drift_125",
+  "be1.dhz11l1_aper",
+  "be1.dhz11l1",
+  "be1.dvt11l1_aper",
+  "be1.dvt11l1",
+  "drift_126",
+  "br1.ono11l1_aper",
+  "br1.ono11l1",
+  "br1.qno11l1_aper",
+  "br1.qno11l1",
+  "br1.xno11l1_aper",
+  "br1.xno11l1",
+  "drift_127",
+  "br1.bwsv11l1",
+  "drift_128",
+  "br.bhz111_aper",
+  "br.bhz111",
+  "drift_129",
+  "br.stscrap111_aper",
+  "br.stscrap111",
+  "drift_130",
+  "br1.bpp11l2",
+  "drift_131",
+  "br.qfo111_aper",
+  "br.qfo111",
+  "drift_132",
+  "br1.bpm11l3_aper",
+  "br1.bpm11l3",
+  "br1.onoh0.11l3_aper",
+  "br1.onoh0.11l3",
+  "br1.qskh0.11l3_aper",
+  "br1.qskh0.11l3",
+  "br1.xnoh0.11l3_aper",
+  "br1.xnoh0.11l3",
+  "drift_133",
+  "br.qde11_aper",
+  "br.qde11",
+  "drift_134",
+  "br1.dhz11l4_aper",
+  "br1.dhz11l4",
+  "br1.dvt11l4",
+  "br1.osk11l4_aper",
+  "br1.osk11l4",
+  "br1.xsk11l4_aper",
+  "br1.xsk11l4",
+  "drift_135",
+  "br.qfo112_aper",
+  "br.qfo112",
+  "drift_136",
+  "br.stscrap112_aper",
+  "br.stscrap112",
+  "drift_137",
+  "br.bhz112_aper",
+  "br.bhz112",
+  "p11ring1$end",
+  "p12ring1$start",
+  "drift_138",
+  "br1.kqm12l1_aper",
+  "drift_br1.kqm12l1..1",
+  "br1.kqm12l1",
+  "drift_br1.kqm12l1..2",
+  "drift_139",
+  "br1.ono12l1_aper",
+  "br1.ono12l1",
+  "br1.osk12l1_aper",
+  "br1.osk12l1",
+  "br1.xno12l1_aper",
+  "br1.xno12l1",
+  "br1.xsk12l1_aper",
+  "br1.xsk12l1",
+  "drift_140",
+  "br.bhz121_aper",
+  "br.bhz121",
+  "drift_141",
+  "br.stscrap121_aper",
+  "br.stscrap121",
+  "drift_142",
+  "br.qfo121_aper",
+  "br.qfo121",
+  "drift_143",
+  "br1.bpm12l3_aper",
+  "br1.bpm12l3",
+  "br1.onoh0.12l3_aper",
+  "br1.onoh0.12l3",
+  "br1.qno12l3_aper",
+  "br1.qno12l3",
+  "br1.xnoh0.12l3_aper",
+  "br1.xnoh0.12l3",
+  "drift_144",
+  "br.qde12_aper",
+  "br.qde12",
+  "drift_145",
+  "br1.dhz12l4_aper",
+  "br1.dhz12l4",
+  "br1.dvt12l4_aper",
+  "br1.dvt12l4",
+  "br1.osk12l4_aper",
+  "br1.osk12l4",
+  "br1.xsk12l4_aper",
+  "br1.xsk12l4",
+  "drift_146",
+  "br.qfo122_aper",
+  "br.qfo122",
+  "drift_147",
+  "br.stscrap122_aper",
+  "br.stscrap122",
+  "drift_148",
+  "br.bhz122_aper",
+  "br.bhz122",
+  "p12ring1$end",
+  "p13ring1$start",
+  "drift_149",
+  "drift_br1.acwf13l1.1..1",
+  "br1.acwf13l1.1",
+  "drift_br1.acwf13l1.1..2",
+  "drift_150",
+  "drift_br1.acwf13l1.2..1",
+  "br1.acwf13l1.2",
+  "drift_br1.acwf13l1.2..2",
+  "drift_151",
+  "br.bhz131_aper",
+  "br.bhz131",
+  "drift_152",
+  "br.stscrap131_aper",
+  "br.stscrap131",
+  "drift_153",
+  "br.qfo131_aper",
+  "br.qfo131",
+  "drift_154",
+  "br1.bpm13l3_aper",
+  "br1.bpm13l3",
+  "br1.onoh0.13l3_aper",
+  "br1.onoh0.13l3",
+  "br1.qskh0.13l3_aper",
+  "br1.qskh0.13l3",
+  "br1.xnoh0.13l3_aper",
+  "br1.xnoh0.13l3",
+  "drift_155",
+  "br.qde13_aper",
+  "br.qde13",
+  "drift_156",
+  "br1.dhz13l4_aper",
+  "br1.dhz13l4",
+  "br1.dvt13l4_aper",
+  "br1.dvt13l4",
+  "drift_157",
+  "br.qfo132_aper",
+  "br.qfo132",
+  "drift_158",
+  "br.stscrap132_aper",
+  "br.stscrap132",
+  "drift_159",
+  "br.bhz132_aper",
+  "br.bhz132",
+  "p13ring1$end",
+  "p14ring1$start",
+  "drift_160",
+  "br1.dhz14l1_aper",
+  "br1.dhz14l1",
+  "br1.dvt14l1_aper",
+  "br1.dvt14l1",
+  "drift_161",
+  "be1.kfa14l1_aper",
+  "drift_be1.kfa14l1..1",
+  "be1.kfa14l1",
+  "drift_be1.kfa14l1..2",
+  "drift_162",
+  "br.bhz141_aper",
+  "br.bhz141",
+  "drift_163",
+  "br.stscrap141_aper",
+  "br.stscrap141",
+  "drift_164",
+  "br1.vvs14l2",
+  "drift_165",
+  "br.qfo141_aper",
+  "br.qfo141",
+  "drift_166",
+  "br1.bpm14l3_aper",
+  "br1.bpm14l3",
+  "br1.onoh0.14l3_aper",
+  "br1.onoh0.14l3",
+  "br1.qsk14l3_aper",
+  "br1.qsk14l3",
+  "br1.xnoh0.14l3_aper",
+  "br1.xnoh0.14l3",
+  "drift_167",
+  "br.qde14_aper",
+  "br.qde14",
+  "drift_168",
+  "br1.bpp14l4_aper",
+  "br1.bpp14l4",
+  "drift_169",
+  "be1.bsw14l4_aper",
+  "drift_be1.bsw14l4..1",
+  "be1.bsw14l4",
+  "drift_be1.bsw14l4..2",
+  "drift_170",
+  "br.qfo142_aper",
+  "br.qfo142",
+  "drift_171",
+  "br.spscrap142_aper",
+  "br.spscrap142",
+  "drift_172",
+  "br.bhz142_aper",
+  "br.bhz142",
+  "p14ring1$end",
+  "p15ring1$start",
+  "drift_173",
+  "be1.btv10",
+  "drift_174",
+  "br1.btv15l1",
+  "drift_175",
+  "drift_be1.smh15l1..1",
+  "be1.smh15l1",
+  "drift_be1.smh15l1..2",
+  "drift_176",
+  "br1.dhz15l1_aper",
+  "br1.dhz15l1",
+  "br1.dvt15l1_aper",
+  "br1.dvt15l1",
+  "drift_177",
+  "be1.bsw15l1_aper",
+  "drift_be1.bsw15l1..1",
+  "be1.bsw15l1",
+  "drift_be1.bsw15l1..2",
+  "drift_178",
+  "br.bhz151_aper",
+  "br.bhz151",
+  "drift_179",
+  "br.spscrap151_aper",
+  "br.spscrap151",
+  "drift_180",
+  "br.qfo151_aper",
+  "br.qfo151",
+  "drift_181",
+  "br1.bpm15l3_aper",
+  "br1.bpm15l3",
+  "br1.onoh0.15l3_aper",
+  "br1.onoh0.15l3",
+  "br1.qskh0.15l3_aper",
+  "br1.qskh0.15l3",
+  "br1.xnoh0.15l3_aper",
+  "br1.xnoh0.15l3",
+  "drift_182",
+  "br.qde15_aper",
+  "br.qde15",
+  "drift_183",
+  "be1.bsw15l4_aper",
+  "drift_be1.bsw15l4..1",
+  "be1.bsw15l4",
+  "drift_be1.bsw15l4..2",
+  "drift_184",
+  "br.qfo152_aper",
+  "br.qfo152",
+  "drift_185",
+  "br.stscrap152_aper",
+  "br.stscrap152",
+  "drift_186",
+  "br.bhz152_aper",
+  "br.bhz152",
+  "p15ring1$end",
+  "p16ring1$start",
+  "drift_187",
+  "br1.ono16l1_aper",
+  "br1.ono16l1",
+  "br1.qno16l1_aper",
+  "br1.qno16l1",
+  "br1.xno16l1_aper",
+  "br1.xno16l1",
+  "drift_188",
+  "bi1.ksw16l1_aper",
+  "drift_bi1.ksw16l1..1",
+  "bi1.ksw16l1",
+  "drift_bi1.ksw16l1..2",
+  "drift_189",
+  "br1.dhz16l1_aper",
+  "br1.dhz16l1",
+  "br1.dvt16l1_aper",
+  "br1.dvt16l1",
+  "drift_190",
+  "br.bhz161_aper",
+  "br.bhz161",
+  "drift_191",
+  "br.stscrap161_aper",
+  "br.stscrap161",
+  "drift_192",
+  "br.qfo161_aper",
+  "br.qfo161",
+  "drift_193",
+  "br1.bpm16l3_aper",
+  "br1.bpm16l3",
+  "br1.onoh0.16l3_aper",
+  "br1.onoh0.16l3",
+  "br1.qno16l3_aper",
+  "br1.qno16l3",
+  "br1.xnoh0.16l3_aper",
+  "br1.xnoh0.16l3",
+  "drift_194",
+  "br.qde16_aper",
+  "br.qde16",
+  "drift_195",
+  "bi1.ksw16l4_aper",
+  "drift_bi1.ksw16l4..1",
+  "bi1.ksw16l4",
+  "drift_bi1.ksw16l4..2",
+  "drift_196",
+  "br.qfo162_aper",
+  "br.qfo162",
+  "drift_197",
+  "br1.vvs16l5",
+  "drift_198",
+  "br.stscrap162_aper",
+  "br.stscrap162",
+  "drift_199",
+  "br.bhz162_aper",
+  "br.bhz162",
+  "p16ring1$end",
+  "psb1$end"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {
+   "method": "4d"
+  },
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null
+ },
+ "particle_ref": {
+  "ax": [
+   0.0
+  ],
+  "start_tracking_at_element": -1,
+  "at_element": [
+   0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "y": [
+   0.0
+  ],
+  "px": [
+   0.0
+  ],
+  "q0": 1.0,
+  "particle_id": [
+   0
+  ],
+  "at_turn": [
+   0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "mass0": 938272088.16,
+  "chi": [
+   1.0
+  ],
+  "x": [
+   0.0
+  ],
+  "_rng_s3": [
+   0
+  ],
+  "pdg_id": [
+   0
+  ],
+  "state": [
+   1
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "weight": [
+   1.0
+  ],
+  "ay": [
+   0.0
+  ],
+  "_rng_s2": [
+   0
+  ],
+  "py": [
+   0.0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "t_sim": 1.0080991028513366e-06,
+  "_rng_s1": [
+   0
+  ],
+  "s": [
+   0.0
+  ],
+  "delta": [
+   0.0
+  ],
+  "ptau": [
+   0.0
+  ],
+  "rvv": [
+   1.0
+  ],
+  "rpp": [
+   1.0
+  ],
+  "p0c": [
+   570830155.1893516
+  ],
+  "beta0": [
+   0.519752948152881
+  ],
+  "gamma0": [
+   1.1705262269290748
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {},
+   "version": 50902.0,
+   "pi": 3.141592653589793,
+   "twopi": 6.283185307179586,
+   "degrad": 57.29577951308232,
+   "raddeg": 0.017453292519943295,
+   "e": 2.718281828459045,
+   "amu0": 1.2566370614359173e-06,
+   "emass": 0.00051099895,
+   "mumass": 0.1056583755,
+   "nmass": 0.93956542052,
+   "umass": 0.93149410242,
+   "pmass": 0.93827208816,
+   "clight": 299792458.0,
+   "qelect": 1.602176634e-19,
+   "hbar": 6.582119569e-25,
+   "erad": 2.8179403262e-15,
+   "prad": 1.5346982671888944e-18,
+   "twiss_tol": 1e-06,
+   "thin": 0.0,
+   "slices": 0.0,
+   "qh": 4.15,
+   "qv": 4.65,
+   "kbrbhz": -0.19634954084936207,
+   "e1brbhz": -0.09817477042468103,
+   "e2brbhz": -0.09817477042468103,
+   "fintbrbhz": 0.5,
+   "hgapbrbhz": 0.035,
+   "kbrqf": 0.7409699495378219,
+   "kbrqd": -0.774105869745434,
+   "bsw_k0l": 0.0,
+   "bsw_k2l": 0.0,
+   "kbi1ksw1l4": 0.0,
+   "kbi1ksw2l1": 0.0,
+   "kbi1ksw16l1": 0.0,
+   "kbi1ksw16l4": 0.0,
+   "k0bi1bsw1l11": 0.0,
+   "k0bi1bsw1l12": 0.0,
+   "k0bi1bsw1l13": 0.0,
+   "k0bi1bsw1l14": 0.0,
+   "kbi2ksw1l4": 0.0,
+   "kbi2ksw2l1": 0.0,
+   "kbi2ksw16l1": 0.0,
+   "kbi2ksw16l4": 0.0,
+   "k0bi2bsw1l11": 0.0,
+   "k0bi2bsw1l12": 0.0,
+   "k0bi2bsw1l13": 0.0,
+   "k0bi2bsw1l14": 0.0,
+   "kbi3ksw1l4": 0.0,
+   "kbi3ksw2l1": 0.0,
+   "kbi3ksw16l1": 0.0,
+   "kbi3ksw16l4": 0.0,
+   "k0bi3bsw1l11": 0.0,
+   "k0bi3bsw1l12": 0.0,
+   "k0bi3bsw1l13": 0.0,
+   "k0bi3bsw1l14": 0.0,
+   "kbi4ksw1l4": 0.0,
+   "kbi4ksw2l1": 0.0,
+   "kbi4ksw16l1": 0.0,
+   "kbi4ksw16l4": 0.0,
+   "k0bi4bsw1l11": 0.0,
+   "k0bi4bsw1l12": 0.0,
+   "k0bi4bsw1l13": 0.0,
+   "k0bi4bsw1l14": 0.0,
+   "kbrqd3corr": 0.0,
+   "kbrqd14corr": 0.0,
+   "kbebsw14l4": 0.0,
+   "kbebsw15l1": 0.0,
+   "kbebsw15l4": 0.0,
+   "shaverr1_x_mm": 0.0,
+   "shaverr1_y_mm": 0.0,
+   "dkbr1dshahl4": 0.0001897932,
+   "dkbr1dshavl4": 9.67323e-05,
+   "kbr1dshahl4": 0.0,
+   "kbr1dshavl4": 0.0,
+   "shaverr2_x_mm": 0.0,
+   "shaverr2_y_mm": 0.0,
+   "dkbr2dshahl4": 0.0001897932,
+   "dkbr2dshavl4": 9.67323e-05,
+   "kbr2dshahl4": 0.0,
+   "kbr2dshavl4": 0.0,
+   "shaverr3_x_mm": 0.0,
+   "shaverr3_y_mm": 0.0,
+   "dkbr3dshahl4": 0.0001897932,
+   "dkbr3dshavl4": 9.67323e-05,
+   "kbr3dshahl4": 0.0,
+   "kbr3dshavl4": 0.0,
+   "shaverr4_x_mm": 0.0,
+   "shaverr4_y_mm": 0.0,
+   "dkbr4dshahl4": 0.0001897932,
+   "dkbr4dshavl4": 9.67323e-05,
+   "kbr4dshahl4": 0.0,
+   "kbr4dshavl4": 0.0,
+   "k2bi1bsw1l11": 0.0,
+   "k2bi1bsw1l12": 0.0,
+   "k2bi1bsw1l13": 0.0,
+   "k2bi1bsw1l14": 0.0,
+   "kbrqfcorr": 0.0,
+   "kbr1onoh0": 0.0,
+   "kbr1qskh0": 0.0,
+   "kbr1xnoh0": 0.0,
+   "kbrqdcorr": 0.0,
+   "kbr1qsk210l3": 0.0,
+   "kbr1osk2l4": 0.0,
+   "kbr1xsk2l4": 0.0,
+   "kbr1ono311l1": 0.0,
+   "kbr1qno311l1": 0.0,
+   "kbr1xno311l1": 0.0,
+   "kbr1ono4l1": 0.0,
+   "kbr1osk4l1": 0.0,
+   "kbr1xno4l1": 0.0,
+   "kbr1xsk4l1": 0.0,
+   "kbr1qno412l3": 0.0,
+   "kbr1ono6l1": 0.0,
+   "kbr1osk6l1": 0.0,
+   "kbr1xno6l1": 0.0,
+   "kbr1xsk6l1": 0.0,
+   "kbr1qsk614l3": 0.0,
+   "kbr1osk6l4": 0.0,
+   "kbr1xsk6l4": 0.0,
+   "kbr1ono816l1": 0.0,
+   "kbr1qno816l1": 0.0,
+   "kbr1xno816l1": 0.0,
+   "kbr1qno816l3": 0.0,
+   "kbr1ono9l1": 0.0,
+   "kbr1osk9l1": 0.0,
+   "kbr1xno9l1": 0.0,
+   "kbr1xsk9l1": 0.0,
+   "kbr1osk11l4": 0.0,
+   "kbr1xsk11l4": 0.0,
+   "kbr1ono12l1": 0.0,
+   "kbr1osk12l1": 0.0,
+   "kbr1xno12l1": 0.0,
+   "kbr1xsk12l1": 0.0,
+   "kbr1osk12l4": 0.0,
+   "kbr1xsk12l4": 0.0,
+   "kbr1dhz2l4": 0.0,
+   "kbr1dvt2l4": 0.0,
+   "kbrdes3l1": 0.0,
+   "kbr1dhz3l4": 0.0,
+   "kbr1dvt3l4": 0.0,
+   "kbe1dhz4l1": 0.0,
+   "kbe1dvt4l1": 0.0,
+   "kbr1dhz4l4": 0.0,
+   "kbr1dhz5l4": 0.0,
+   "kbr1dvt5l4": 0.0,
+   "kbr1dhz6l4": 0.0,
+   "kbr1dvt6l4": 0.0,
+   "kbr1dhz8l1": 0.0,
+   "kbr1dvt8l1": 0.0,
+   "kbr1dhz9l1": 0.0,
+   "kbr1dvt9l1": 0.0,
+   "kbr1dvt10l4": 0.0,
+   "kbe1dhz11l1": 0.0,
+   "kbe1dvt11l1": 0.0,
+   "kbr1dhz11l4": 0.0,
+   "kbr1dvt11l4": 0.0,
+   "kbr1dhz12l4": 0.0,
+   "kbr1dvt12l4": 0.0,
+   "kbr1dhz13l4": 0.0,
+   "kbr1dvt13l4": 0.0,
+   "kbr1dhz14l1": 0.0,
+   "kbr1dvt14l1": 0.0,
+   "kbe1kfa14l1": 0.0,
+   "kbesmh15l1": 0.0,
+   "kbr1dhz15l1": 0.0,
+   "kbr1dvt15l1": 0.0,
+   "kbr1dhz16l1": 0.0,
+   "kbr1dvt16l1": 0.0,
+   "tar": 5.436877802731403e-20,
+   "centre": 0.0,
+   "refer": 0.0
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [
+  [
+   "vars['kbr1dshahl4']",
+   "(vars['dkbr1dshahl4'] * vars['shaverr1_x_mm'])"
+  ],
+  [
+   "vars['kbr1dshavl4']",
+   "(vars['dkbr1dshavl4'] * vars['shaverr1_y_mm'])"
+  ],
+  [
+   "vars['kbr2dshahl4']",
+   "(vars['dkbr2dshahl4'] * vars['shaverr2_x_mm'])"
+  ],
+  [
+   "vars['kbr2dshavl4']",
+   "(vars['dkbr2dshavl4'] * vars['shaverr2_y_mm'])"
+  ],
+  [
+   "vars['kbr3dshahl4']",
+   "(vars['dkbr3dshahl4'] * vars['shaverr3_x_mm'])"
+  ],
+  [
+   "vars['kbr3dshavl4']",
+   "(vars['dkbr3dshavl4'] * vars['shaverr3_y_mm'])"
+  ],
+  [
+   "vars['kbr4dshahl4']",
+   "(vars['dkbr4dshahl4'] * vars['shaverr4_x_mm'])"
+  ],
+  [
+   "vars['kbr4dshavl4']",
+   "(vars['dkbr4dshavl4'] * vars['shaverr4_y_mm'])"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.1'].edge_entry_angle_fdown",
+   "(((vars['k0bi1bsw1l11'] - (0.0 / (0.313 / f.sinc(0.0)))) * (0.313 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.1'].edge_exit_angle_fdown",
+   "(((vars['k0bi1bsw1l11'] - (0.0 / (0.313 / f.sinc(0.0)))) * (0.313 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.1'].knl[2]",
+   "(0 + (vars['k2bi1bsw1l11'] * (0.313 / f.sinc(0.0))))"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.1'].k0",
+   "vars['k0bi1bsw1l11']"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.2'].edge_entry_angle_fdown",
+   "(((vars['k0bi1bsw1l12'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.2'].edge_exit_angle_fdown",
+   "(((vars['k0bi1bsw1l12'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.2'].knl[2]",
+   "(0 + (vars['k2bi1bsw1l12'] * (0.325 / f.sinc(0.0))))"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.2'].k0",
+   "vars['k0bi1bsw1l12']"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.3'].edge_entry_angle_fdown",
+   "(((vars['k0bi1bsw1l13'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.3'].edge_exit_angle_fdown",
+   "(((vars['k0bi1bsw1l13'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.3'].knl[2]",
+   "(0 + (vars['k2bi1bsw1l13'] * (0.325 / f.sinc(0.0))))"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.3'].k0",
+   "vars['k0bi1bsw1l13']"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.4'].edge_entry_angle_fdown",
+   "(((vars['k0bi1bsw1l14'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.4'].edge_exit_angle_fdown",
+   "(((vars['k0bi1bsw1l14'] - (0.0 / (0.325 / f.sinc(0.0)))) * (0.325 / f.sinc(0.0))) / 2)"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.4'].knl[2]",
+   "(0 + (vars['k2bi1bsw1l14'] * (0.325 / f.sinc(0.0))))"
+  ],
+  [
+   "element_refs['bi1.bsw1l1.4'].k0",
+   "vars['k0bi1bsw1l14']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz11'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo11'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.1l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.1l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.1l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde1'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['bi1.ksw1l4'].knl[0]",
+   "(-vars['kbi1ksw1l4'])"
+  ],
+  [
+   "element_refs['br.qfo12'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz12'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['bi1.ksw2l1'].knl[0]",
+   "(-vars['kbi1ksw2l1'])"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz21'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo21'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.2l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qsk2l3'].ksl[1]",
+   "(+vars['kbr1qsk210l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.2l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde2'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz2l4'].knl[0]",
+   "(-vars['kbr1dhz2l4'])"
+  ],
+  [
+   "element_refs['br1.dvt2l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt2l4'])"
+  ],
+  [
+   "element_refs['br1.osk2l4'].ksl[3]",
+   "vars['kbr1osk2l4']"
+  ],
+  [
+   "element_refs['br1.xsk2l4'].ksl[2]",
+   "vars['kbr1xsk2l4']"
+  ],
+  [
+   "element_refs['br.qfo22'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz22'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.des3l1'].knl[0]",
+   "(-vars['kbrdes3l1'])"
+  ],
+  [
+   "element_refs['br1.ono3l1'].knl[3]",
+   "(+vars['kbr1ono311l1'])"
+  ],
+  [
+   "element_refs['br1.qno3l1'].knl[1]",
+   "(+vars['kbr1qno311l1'])"
+  ],
+  [
+   "element_refs['br1.xno3l1'].knl[2]",
+   "(+vars['kbr1xno311l1'])"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz31'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo31'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.3l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.3l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.3l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde3'].k1",
+   "(1.0 * ((vars['kbrqd'] + vars['kbrqdcorr']) + vars['kbrqd3corr']))"
+  ],
+  [
+   "element_refs['br1.dhz3l4'].knl[0]",
+   "(-vars['kbr1dhz3l4'])"
+  ],
+  [
+   "element_refs['br1.dvt3l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt3l4'])"
+  ],
+  [
+   "element_refs['br.qfo32'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz32'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.ono4l1'].knl[3]",
+   "vars['kbr1ono4l1']"
+  ],
+  [
+   "element_refs['br1.osk4l1'].ksl[3]",
+   "vars['kbr1osk4l1']"
+  ],
+  [
+   "element_refs['br1.xno4l1'].knl[2]",
+   "vars['kbr1xno4l1']"
+  ],
+  [
+   "element_refs['br1.xsk4l1'].ksl[2]",
+   "vars['kbr1xsk4l1']"
+  ],
+  [
+   "element_refs['be1.dhz4l1'].knl[0]",
+   "(-vars['kbe1dhz4l1'])"
+  ],
+  [
+   "element_refs['be1.dvt4l1'].ksl[0]",
+   "(1.0 * vars['kbe1dvt4l1'])"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz41'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo41'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.4l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qno4l3'].knl[1]",
+   "(+vars['kbr1qno412l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.4l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde4'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz4l4'].knl[0]",
+   "(-vars['kbr1dhz4l4'])"
+  ],
+  [
+   "element_refs['br.qfo42'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz42'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz51'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo51'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.5l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.5l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.5l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde5'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz5l4'].knl[0]",
+   "(-vars['kbr1dhz5l4'])"
+  ],
+  [
+   "element_refs['br1.dvt5l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt5l4'])"
+  ],
+  [
+   "element_refs['br.qfo52'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz52'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.ono6l1'].knl[3]",
+   "vars['kbr1ono6l1']"
+  ],
+  [
+   "element_refs['br1.osk6l1'].ksl[3]",
+   "vars['kbr1osk6l1']"
+  ],
+  [
+   "element_refs['br1.xno6l1'].knl[2]",
+   "vars['kbr1xno6l1']"
+  ],
+  [
+   "element_refs['br1.xsk6l1'].ksl[2]",
+   "vars['kbr1xsk6l1']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz61'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo61'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.6l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qsk6l3'].ksl[1]",
+   "(+vars['kbr1qsk614l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.6l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde6'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz6l4'].knl[0]",
+   "(-vars['kbr1dhz6l4'])"
+  ],
+  [
+   "element_refs['br1.dvt6l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt6l4'])"
+  ],
+  [
+   "element_refs['br1.osk6l4'].ksl[3]",
+   "vars['kbr1osk6l4']"
+  ],
+  [
+   "element_refs['br1.xsk6l4'].ksl[2]",
+   "vars['kbr1xsk6l4']"
+  ],
+  [
+   "element_refs['br.qfo62'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz62'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz71'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo71'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.7l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.7l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.7l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde7'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dshah7l4'].knl[0]",
+   "(-vars['kbr1dshahl4'])"
+  ],
+  [
+   "element_refs['br1.dshav7l4'].ksl[0]",
+   "(1.0 * vars['kbr1dshavl4'])"
+  ],
+  [
+   "element_refs['br.qfo72'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz72'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.ono8l1'].knl[3]",
+   "(+vars['kbr1ono816l1'])"
+  ],
+  [
+   "element_refs['br1.qno8l1'].knl[1]",
+   "(+vars['kbr1qno816l1'])"
+  ],
+  [
+   "element_refs['br1.xno8l1'].knl[2]",
+   "(+vars['kbr1xno816l1'])"
+  ],
+  [
+   "element_refs['br1.dhz8l1'].knl[0]",
+   "(-vars['kbr1dhz8l1'])"
+  ],
+  [
+   "element_refs['br1.dvt8l1'].ksl[0]",
+   "(1.0 * vars['kbr1dvt8l1'])"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz81'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo81'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.8l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qno8l3'].knl[1]",
+   "(+vars['kbr1qno816l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.8l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde8'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br.qfo82'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz82'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.dhz9l1'].knl[0]",
+   "(-vars['kbr1dhz9l1'])"
+  ],
+  [
+   "element_refs['br1.dvt9l1'].ksl[0]",
+   "(1.0 * vars['kbr1dvt9l1'])"
+  ],
+  [
+   "element_refs['br1.ono9l1'].knl[3]",
+   "vars['kbr1ono9l1']"
+  ],
+  [
+   "element_refs['br1.osk9l1'].ksl[3]",
+   "vars['kbr1osk9l1']"
+  ],
+  [
+   "element_refs['br1.xno9l1'].knl[2]",
+   "vars['kbr1xno9l1']"
+  ],
+  [
+   "element_refs['br1.xsk9l1'].ksl[2]",
+   "vars['kbr1xsk9l1']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz91'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo91'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.9l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.9l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.9l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde9'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dshah9l4'].knl[0]",
+   "(-vars['kbr1dshahl4'])"
+  ],
+  [
+   "element_refs['br1.dshav9l4'].ksl[0]",
+   "(1.0 * vars['kbr1dshavl4'])"
+  ],
+  [
+   "element_refs['br.qfo92'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz92'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz101'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo101'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.10l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qsk10l3'].ksl[1]",
+   "(-vars['kbr1qsk210l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.10l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde10'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dvt10l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt10l4'])"
+  ],
+  [
+   "element_refs['br.qfo102'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz102'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['be1.dhz11l1'].knl[0]",
+   "(-vars['kbe1dhz11l1'])"
+  ],
+  [
+   "element_refs['be1.dvt11l1'].ksl[0]",
+   "(1.0 * vars['kbe1dvt11l1'])"
+  ],
+  [
+   "element_refs['br1.ono11l1'].knl[3]",
+   "(-vars['kbr1ono311l1'])"
+  ],
+  [
+   "element_refs['br1.qno11l1'].knl[1]",
+   "(-vars['kbr1qno311l1'])"
+  ],
+  [
+   "element_refs['br1.xno11l1'].knl[2]",
+   "(-vars['kbr1xno311l1'])"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz111'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo111'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.11l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.11l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.11l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde11'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz11l4'].knl[0]",
+   "(-vars['kbr1dhz11l4'])"
+  ],
+  [
+   "element_refs['br1.dvt11l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt11l4'])"
+  ],
+  [
+   "element_refs['br1.osk11l4'].ksl[3]",
+   "vars['kbr1osk11l4']"
+  ],
+  [
+   "element_refs['br1.xsk11l4'].ksl[2]",
+   "vars['kbr1xsk11l4']"
+  ],
+  [
+   "element_refs['br.qfo112'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz112'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.ono12l1'].knl[3]",
+   "vars['kbr1ono12l1']"
+  ],
+  [
+   "element_refs['br1.osk12l1'].ksl[3]",
+   "vars['kbr1osk12l1']"
+  ],
+  [
+   "element_refs['br1.xno12l1'].knl[2]",
+   "vars['kbr1xno12l1']"
+  ],
+  [
+   "element_refs['br1.xsk12l1'].ksl[2]",
+   "vars['kbr1xsk12l1']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz121'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo121'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.12l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qno12l3'].knl[1]",
+   "(-vars['kbr1qno412l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.12l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde12'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz12l4'].knl[0]",
+   "(-vars['kbr1dhz12l4'])"
+  ],
+  [
+   "element_refs['br1.dvt12l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt12l4'])"
+  ],
+  [
+   "element_refs['br1.osk12l4'].ksl[3]",
+   "vars['kbr1osk12l4']"
+  ],
+  [
+   "element_refs['br1.xsk12l4'].ksl[2]",
+   "vars['kbr1xsk12l4']"
+  ],
+  [
+   "element_refs['br.qfo122'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz122'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz131'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo131'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.13l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.13l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.13l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde13'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['br1.dhz13l4'].knl[0]",
+   "(-vars['kbr1dhz13l4'])"
+  ],
+  [
+   "element_refs['br1.dvt13l4'].ksl[0]",
+   "(1.0 * vars['kbr1dvt13l4'])"
+  ],
+  [
+   "element_refs['br.qfo132'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz132'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.dhz14l1'].knl[0]",
+   "(-vars['kbr1dhz14l1'])"
+  ],
+  [
+   "element_refs['br1.dvt14l1'].ksl[0]",
+   "(1.0 * vars['kbr1dvt14l1'])"
+  ],
+  [
+   "element_refs['be1.kfa14l1'].knl[0]",
+   "(-vars['kbe1kfa14l1'])"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz141'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo141'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.14l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qsk14l3'].ksl[1]",
+   "(-vars['kbr1qsk614l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.14l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde14'].k1",
+   "(1.0 * ((vars['kbrqd'] + vars['kbrqdcorr']) + vars['kbrqd14corr']))"
+  ],
+  [
+   "element_refs['be1.bsw14l4'].knl[0]",
+   "(-vars['kbebsw14l4'])"
+  ],
+  [
+   "element_refs['br.qfo142'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz142'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['be1.smh15l1'].knl[0]",
+   "(-vars['kbesmh15l1'])"
+  ],
+  [
+   "element_refs['br1.dhz15l1'].knl[0]",
+   "(-vars['kbr1dhz15l1'])"
+  ],
+  [
+   "element_refs['br1.dvt15l1'].ksl[0]",
+   "(1.0 * vars['kbr1dvt15l1'])"
+  ],
+  [
+   "element_refs['be1.bsw15l1'].knl[0]",
+   "(-vars['kbebsw15l1'])"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz151'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo151'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.15l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qskh0.15l3'].ksl[1]",
+   "vars['kbr1qskh0']"
+  ],
+  [
+   "element_refs['br1.xnoh0.15l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde15'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['be1.bsw15l4'].knl[0]",
+   "(-vars['kbebsw15l4'])"
+  ],
+  [
+   "element_refs['br.qfo152'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz152'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br1.ono16l1'].knl[3]",
+   "(-vars['kbr1ono816l1'])"
+  ],
+  [
+   "element_refs['br1.qno16l1'].knl[1]",
+   "(-vars['kbr1qno816l1'])"
+  ],
+  [
+   "element_refs['br1.xno16l1'].knl[2]",
+   "(-vars['kbr1xno816l1'])"
+  ],
+  [
+   "element_refs['bi1.ksw16l1'].knl[0]",
+   "(-vars['kbi1ksw16l1'])"
+  ],
+  [
+   "element_refs['br1.dhz16l1'].knl[0]",
+   "(-vars['kbr1dhz16l1'])"
+  ],
+  [
+   "element_refs['br1.dvt16l1'].ksl[0]",
+   "(1.0 * vars['kbr1dvt16l1'])"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz161'].angle",
+   "vars['kbrbhz']"
+  ],
+  [
+   "element_refs['br.qfo161'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br1.onoh0.16l3'].knl[3]",
+   "vars['kbr1onoh0']"
+  ],
+  [
+   "element_refs['br1.qno16l3'].knl[1]",
+   "(-vars['kbr1qno816l3'])"
+  ],
+  [
+   "element_refs['br1.xnoh0.16l3'].knl[2]",
+   "vars['kbr1xnoh0']"
+  ],
+  [
+   "element_refs['br.qde16'].k1",
+   "(1.0 * (vars['kbrqd'] + vars['kbrqdcorr']))"
+  ],
+  [
+   "element_refs['bi1.ksw16l4'].knl[0]",
+   "(-vars['kbi1ksw16l4'])"
+  ],
+  [
+   "element_refs['br.qfo162'].k1",
+   "(1.0 * (vars['kbrqf'] + vars['kbrqfcorr']))"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_entry_angle",
+   "vars['e1brbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_exit_angle",
+   "vars['e2brbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_entry_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_exit_fint",
+   "vars['fintbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_entry_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].edge_exit_hgap",
+   "vars['hgapbrbhz']"
+  ],
+  [
+   "element_refs['br.bhz162'].angle",
+   "vars['kbrbhz']"
+  ]
+ ],
+ "metadata": {}
+}
